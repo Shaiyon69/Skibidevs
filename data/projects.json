@@ -21,9 +21,6 @@
         "WebRTC",
         "Supabase"
       ],
-      "relatedDevLogs": [
-        "messapp-mobile-polish"
-      ],
       "image": "/Skibidevs/assets/img/apps/messapp.png",
       "liveUrl": "https://messapp-tau.vercel.app",
       "apptic": "messapp"
@@ -46,9 +43,6 @@
         "Godot",
         "Game Design"
       ],
-      "relatedDevLogs": [
-        "convallaria-design"
-      ],
       "image": "/Skibidevs/webvallaria/Convallaria.png",
       "githubUrl": "https://github.com/Shaiyon69/Project_Convallaria",
       "liveUrl": "/Skibidevs/playroom/",
@@ -60,7 +54,7 @@
       "featured": true,
       "category": "Frontend",
       "purpose": "The site you are on: a static GitHub Pages site with an app store, a dev blog, a playable game and this project list.",
-      "description": "Skibidevs: Apptic, Playroom, Scrappbook and Appendix as plain HTML, CSS and JavaScript with no build step.",
+      "description": "This site: an app store and game page in plain HTML, CSS and JavaScript, with no build step.",
       "features": [
         "Apptic store with live GitHub releases",
         "Playable Godot web build",
@@ -72,11 +66,8 @@
         "CSS",
         "JavaScript"
       ],
-      "relatedDevLogs": [
-        "portfolio-refresh"
-      ],
       "image": "https://opengraph.githubassets.com/skibidevs/Shaiyon69/shaiyon69.github.io",
-      "githubUrl": "https://github.com/Shaiyon69/shaiyon69.github.io"
+      "githubUrl": "https://github.com/Shaiyon69/Skibidevs"
     },
     {
       "name": "ISUVentra",

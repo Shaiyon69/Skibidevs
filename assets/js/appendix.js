@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const { esc, fetchJson } = window.SD;
+    const { esc, fetchJson, appIcon } = window.SD;
     const grid = document.getElementById('projectGrid');
     const filters = document.getElementById('projectFilters');
 
@@ -14,24 +14,28 @@ document.addEventListener('DOMContentLoaded', async () => {
     const categories = ['All', ...new Set(projects.map((project) => project.category).filter(Boolean))];
     let active = 'All';
 
-    const card = (project) => {
-        const buttons = [
-            project.apptic ? `<a class="btn btn-sm" href="/Skibidevs/apptic/?app=${encodeURIComponent(project.apptic)}">In the Apptic</a>` : '',
-            project.liveUrl && !project.apptic ? `<a class="btn btn-sm" href="${esc(project.liveUrl)}" rel="noopener">Live</a>` : '',
-            project.githubUrl ? `<a class="btn btn-ghost btn-sm" href="${esc(project.githubUrl)}" rel="noopener">GitHub</a>` : ''
-        ].join('');
+    // GitHub preview cards are wide banners full of text, so only local app art works as an icon.
+    const iconOf = (project) => (/^\/Skibidevs\/(assets\/img\/apps|webvallaria)\//.test(project.image || '') ? project.image : '');
+
+    const row = (project) => {
+        let href = '';
+        let action = '';
+        if (project.apptic) [href, action] = [`/Skibidevs/apptic/?app=${encodeURIComponent(project.apptic)}`, 'Get'];
+        else if (project.liveUrl) [href, action] = [project.liveUrl, 'Open'];
+        else if (project.githubUrl) [href, action] = [project.githubUrl, 'Code'];
+        const tag = href ? 'a' : 'div';
+        const chips = [project.category, ...(project.techStack || []).slice(0, 3)].filter(Boolean)
+            .map((name) => `<span class="chip">${esc(name)}</span>`).join('');
         return `
-            <article class="card project-card">
-                <img src="${esc(project.image || '/Skibidevs/assets/img/task.svg')}" alt="" loading="lazy" width="600" height="300">
-                <div class="inner">
-                    <div class="chips"><span class="chip is-tape">${esc(project.category || 'Project')}</span></div>
-                    <h3>${esc(project.name)}</h3>
-                    <p class="desc">${esc(project.description)}</p>
-                    ${(project.features || []).length ? `<ul>${project.features.slice(0, 4).map((item) => `<li>${esc(item)}</li>`).join('')}</ul>` : ''}
-                    <div class="chips">${(project.techStack || []).map((tech) => `<span class="chip">${esc(tech)}</span>`).join('')}</div>
-                    ${buttons ? `<div class="actions">${buttons}</div>` : ''}
-                </div>
-            </article>`;
+            <${tag} class="app-row project-row"${href ? ` href="${esc(href)}"${href.startsWith('http') ? ' rel="noopener"' : ''}` : ''}>
+                ${appIcon({ name: project.name, icon: iconOf(project) })}
+                <span class="app-text">
+                    <span class="app-name">${esc(project.name)}</span>
+                    <span class="tagline">${esc(project.description)}</span>
+                    <span class="chips">${chips}</span>
+                </span>
+                ${action ? `<span class="get">${action}</span>` : '<span></span>'}
+            </${tag}>`;
     };
 
     // Filters only earn their place once some category holds a few projects.
@@ -44,11 +48,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     const draw = () => {
-        grid.innerHTML = projects.filter((project) => active === 'All' || project.category === active).map(card).join('');
-        // Preview images come from GitHub and fail for private or renamed repos.
-        grid.querySelectorAll('img').forEach((img) => img.addEventListener('error', () => {
-            img.src = '/Skibidevs/assets/img/task.svg';
-        }, { once: true }));
+        grid.innerHTML = projects.filter((project) => active === 'All' || project.category === active).map(row).join('');
     };
 
     filters.addEventListener('click', (event) => {

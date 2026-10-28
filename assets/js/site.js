@@ -1,4 +1,4 @@
-// Shared helpers for every page: escaping, data loading, theme, nav state, Apptic releases.
+// Shared helpers for every page: escaping, data loading, theme, nav state, Apptic releases and notes.
 window.SD = (function () {
     const RELEASE_TTL = 60 * 60 * 1000;
 
@@ -79,74 +79,69 @@ window.SD = (function () {
 
     const appUrl = (app) => `/Skibidevs/apptic/?app=${encodeURIComponent(app.id)}`;
 
+    // The pill is part of the row link: downloads always go through the app page, which explains unsigned installers first.
     const appCard = (app) => {
-        // Downloads always go through the app page, which explains unsigned installers first.
-        let action = '<span class="later">coming soon</span>';
-        if (app.repo) action = `<a class="btn btn-sm" href="${esc(appUrl(app))}">Get</a>`;
-        else if (app.play) action = `<a class="btn btn-sm" href="${esc(app.play)}">Play</a>`;
-        else if (app.web) action = `<a class="btn btn-sm" href="${esc(app.web)}" rel="noopener">Open</a>`;
-        const ready = app.repo || app.play || app.web;
+        let action = '<span class="get is-muted">Soon</span>';
+        if (app.repo) action = '<span class="get">Get</span>';
+        else if (app.play) action = '<span class="get">Play</span>';
+        else if (app.web) action = '<span class="get">Open</span>';
+        const chips = platformsOf(app).map((name) => `<span class="chip">${esc(name)}</span>`).join('');
 
         return `
-            <article class="card app-card${ready ? '' : ' is-empty'}">
-                <div class="app-top">
-                    ${appIcon(app)}
-                    <div>
-                        <h3><a href="${esc(appUrl(app))}">${esc(app.name)}</a></h3>
-                        <span class="meta" data-version="${esc(app.id)}">${esc(platformsOf(app).join(' · ') || 'In the works')}</span>
-                    </div>
-                </div>
-                <p class="tagline">${esc(app.tagline)}</p>
-                <div class="row">${action}</div>
-            </article>`;
+            <a class="app-row" href="${esc(appUrl(app))}">
+                ${appIcon(app)}
+                <span class="app-text">
+                    <span class="app-name">${esc(app.name)} <span class="version" data-version="${esc(app.id)}"></span></span>
+                    <span class="tagline">${esc(app.tagline)}</span>
+                    <span class="chips">${chips || '<span class="chip">In the works</span>'}</span>
+                </span>
+                ${action}
+            </a>`;
     };
 
-    // Add the latest version to each card once its release is known.
+    // Add the latest version to each row once its release is known.
     const hydrateCards = (apps) => {
         apps.filter((app) => app.repo).forEach(async (app) => {
             try {
                 const release = await latestRelease(app.repo, app.tagPrefix);
-                const version = document.querySelector(`[data-version="${CSS.escape(app.id)}"]`);
-                if (version) version.textContent = `${release.tag} · ${platformsOf(app).join(' · ')}`;
+                document.querySelectorAll(`[data-version="${CSS.escape(app.id)}"]`).forEach((node) => { node.textContent = release.tag; });
             } catch (error) {
-                // Card keeps its platform list; the app page falls back to GitHub's releases page.
+                // Row keeps its platform chips; the app page falls back to GitHub's releases page.
             }
         });
     };
 
-    // Scrappbook has two sources: structured dev logs and the older long-form posts.
-    // Throws only when both fail, so a load failure never reads as "No posts yet".
-    const loadPosts = async () => {
-        let failures = 0;
-        const [logs, legacy] = await Promise.all([
-            fetchJson('/Skibidevs/data/logs.json').catch(() => { failures += 1; return { logs: [] }; }),
-            fetchJson('/Skibidevs/data/posts.json').catch(() => { failures += 1; return { posts: [] }; })
-        ]);
-        if (failures === 2) throw new Error('Could not load the Scrappbook');
-        return [
-            ...(logs.logs || []).map((log) => ({ ...log, id: String(log.id), summary: log.description || log.body })),
-            ...(legacy.posts || []).map((post) => ({
-                id: String(post.id),
-                title: post.title,
-                date: post.date,
-                project: (post.tags || []).includes('Convallaria') ? 'Convallaria' : '',
-                tags: post.tags || [],
-                summary: post.excerpt,
-                content: post.content,
-                readingTime: post.readingTime
-            }))
-        ].sort((a, b) => new Date(b.date) - new Date(a.date));
-    };
+    const NOTE_TAGS = { feat: 'New', fix: 'Fix' };
 
-    const postRow = (post) => `
-        <a class="card post-row" href="/Skibidevs/scrappbook/?post=${encodeURIComponent(post.id)}">
-            <div class="post-meta">
-                <span>${esc(formatDate(post.date))}</span>
-                ${post.project ? `<span class="project">${esc(post.project)}</span>` : ''}
-            </div>
-            <h3>${esc(post.title)}</h3>
-            <p>${esc(post.summary)}</p>
-        </a>`;
+    // Release notes are commit subjects ("- feat(ui): ..."). Only headings, bullets, bold and code
+    // are rendered, always from already-escaped text; items past `limit` fold into "Show all".
+    const notesHtml = (text, limit = 8) => {
+        const inline = (line) => esc(line)
+            .replace(/`([^`]+)`/g, '<code>$1</code>')
+            .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+        const blocks = String(text || '').split(/\r?\n/).map((raw) => raw.trim())
+            // GitHub's auto-added compare link duplicates the "All releases" link under the notes.
+            .filter((line) => line && !/^\*\*Full Changelog\*\*/i.test(line)).map((line) => {
+            const item = line.match(/^[-*]\s+(.*)/);
+            if (item) {
+                const commit = item[1].match(/^([a-z]+)(\([^)]*\))?!?:\s*(.*)/i);
+                const tag = commit && NOTE_TAGS[commit[1].toLowerCase()];
+                const body = commit ? commit[3] : item[1];
+                return { li: true, html: `<li>${tag ? `<span class="tag">${tag}</span> ` : ''}${inline(body)}</li>` };
+            }
+            if (/^#{1,6}\s/.test(line)) return { html: `<h3>${inline(line.replace(/^#+\s*/, ''))}</h3>` };
+            return { html: `<p>${inline(line)}</p>` };
+        });
+        const render = (list) => list.reduce((html, block, i) => {
+            const open = block.li && !(list[i - 1] || {}).li ? '<ul>' : '';
+            const close = block.li && !(list[i + 1] || {}).li ? '</ul>' : '';
+            return html + open + block.html + close;
+        }, '');
+        let seen = 0;
+        const cut = blocks.findIndex((block) => block.li && ++seen > limit);
+        if (cut < 0) return render(blocks);
+        return `${render(blocks.slice(0, cut))}<details class="more"><summary>Show all</summary>${render(blocks.slice(cut))}</details>`;
+    };
 
     const formatSize = (bytes) => bytes ? `${(bytes / 1048576).toFixed(bytes < 10485760 ? 1 : 0)} MB` : '';
 
@@ -167,7 +162,6 @@ window.SD = (function () {
         document.querySelectorAll('.tabs a').forEach((link) => {
             if (!path.startsWith(new URL(link.href).pathname)) return;
             link.setAttribute('aria-current', 'page');
-            link.insertAdjacentHTML('beforeend', '<svg class="pen" viewBox="0 0 100 8" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M1 5 C 20 2, 40 7, 60 4 S 90 3, 99 5"/></svg>');
         });
     };
 
@@ -176,5 +170,5 @@ window.SD = (function () {
         initNav();
     });
 
-    return { esc, fetchJson, formatDate, latestRelease, platform, downloadsFor, platformsOf, appIcon, formatSize, loadPosts, appUrl, appCard, hydrateCards, postRow };
+    return { esc, fetchJson, formatDate, latestRelease, platform, downloadsFor, platformsOf, appIcon, formatSize, appUrl, appCard, hydrateCards, notesHtml };
 }());
