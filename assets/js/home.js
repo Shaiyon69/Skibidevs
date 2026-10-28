@@ -1,25 +1,34 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const { esc, fetchJson, appIcon, appUrl, appCard, hydrateCards } = window.SD;
-    const feature = document.getElementById('homeFeature');
-    const list = document.getElementById('homeApps');
+    const { esc, appIcon, appUrl, appCard, hydrateCards, loadApps, tint, tileName } = window.SD;
+    const tiles = document.getElementById('homeTiles');
 
     try {
-        // Convallaria has its own banner below, so it stays out of the app list.
-        const apps = (await fetchJson('/Skibidevs/data/apptic.json')).apps.filter((app) => !app.play);
+        const apps = await loadApps();
         const top = apps.find((app) => app.featured && app.repo) || apps[0];
-        feature.innerHTML = top ? `
-            <a class="feature" href="${esc(appUrl(top))}">
+        // The game gets a wide tile of its own; the featured app gets the big one.
+        const games = apps.filter((app) => app.play);
+        const rest = apps.filter((app) => app !== top && !app.play);
+        const feature = top ? `
+            <a class="tile tint tile-feature" href="${esc(appUrl(top))}"${tint(top.color, tileName(top))}>
                 ${appIcon(top)}
-                <div>
-                    <span class="label">Featured</span>
-                    <h2>${esc(top.name)}</h2>
-                    <p>${esc(top.tagline)}</p>
-                </div>
-                <span class="btn">Get ${esc(top.name)}</span>
+                <span class="eyebrow">Featured</span>
+                <h2>${esc(top.name)}</h2>
+                <p>${esc(top.description || top.tagline)}</p>
+                <span class="btn">Download ${esc(top.name)}</span>
             </a>` : '';
-        list.innerHTML = apps.map(appCard).join('');
-        hydrateCards(apps);
+        const play = games.map((game) => `
+            <a class="tile tint tile-wide" href="${esc(game.play)}"${tint(game.color, tileName(game))}>
+                ${appIcon(game)}
+                <span>
+                    <span class="eyebrow">Playroom</span>
+                    <span class="app-name">${esc(game.name)}</span>
+                    <span class="tagline">${esc(game.tagline)} Runs in your browser.</span>
+                </span>
+                <span class="get">Play</span>
+            </a>`).join('');
+        tiles.innerHTML = feature + rest.map((app) => appCard(app)).join('') + play;
+        hydrateCards(rest);
     } catch (error) {
-        list.innerHTML = '<div class="empty">Couldn\'t load the apps. <a href="/Skibidevs/apptic/">Try the Apps page</a>.</div>';
+        tiles.innerHTML = '<div class="empty">Couldn\'t load the apps. <a href="/Skibidevs/apptic/">Try the Apps page</a>.</div>';
     }
 });

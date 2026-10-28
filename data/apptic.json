@@ -2,6 +2,7 @@
   "apps": [
     {
       "id": "purrch",
+      "color": "#fbbf24",
       "name": "Purrch",
       "tagline": "A cat that lives in your notch.",
       "description": "Water reminders, a focus timer, to-dos, music with lyrics and a file shelf, all tucked into a little pill at the top of your screen. Runs locally; the only network call is the lyrics lookup.",
@@ -12,59 +13,86 @@
     },
     {
       "id": "messapp",
+      "color": "#3b82f6",
       "name": "Messapp",
       "tagline": "Chat, calls and servers for the group.",
       "description": "Realtime messaging with encrypted DMs, voice and video calls, servers and media. Use it in the browser, or install it on Windows or Android.",
       "icon": "/Skibidevs/assets/img/apps/messapp.png",
       "web": "https://messapp-tau.vercel.app",
-      "repo": "Shaiyon69/apptic-releases",
+      "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "messapp-",
       "assets": { "windows": "^messapp_.*_x64-setup\\.exe$", "android": "^messapp.*\\.apk$" },
+      "screenshots": [
+        { "src": "/Skibidevs/assets/img/shots/messapp/dashboard.png", "caption": "Friends list and direct messages" },
+        { "src": "/Skibidevs/assets/img/shots/messapp/servers.png", "caption": "Servers with text and voice channels" },
+        { "src": "/Skibidevs/assets/img/shots/messapp/calling.png", "caption": "Voice and video calls" },
+        { "src": "/Skibidevs/assets/img/shots/messapp/lightbox.png", "caption": "Media viewer for shared photos and videos" },
+        { "src": "/Skibidevs/assets/img/shots/messapp/profile.png", "caption": "Profile settings" }
+      ],
       "featured": true
     },
     {
       "id": "convallaria",
+      "color": "#f472b6",
       "name": "Convallaria",
       "tagline": "A cozy farming RPG where death enriches the soil.",
       "description": "Farm, fight and die: each death advances the world a day and leaves something behind for the next character. A prototype that runs in your browser.",
       "icon": "/Skibidevs/assets/img/apps/convallaria.png",
       "play": "/Skibidevs/playroom/",
-      "featured": true
+      "featured": true,
+      "screenshots": [
+        { "src": "/Skibidevs/assets/img/shots/convallaria/title.png", "caption": "Title screen" },
+        { "src": "/Skibidevs/assets/img/shots/convallaria/preparation.png", "caption": "Spend coins on upgrades and pick a weapon before each run" },
+        { "src": "/Skibidevs/assets/img/shots/convallaria/world.png", "caption": "Explore the overworld" },
+        { "src": "/Skibidevs/assets/img/shots/convallaria/level-up.png", "caption": "Level up mid-run and choose a blessing" }
+      ]
     },
     {
       "id": "chimaera",
+      "color": "#a78bfa",
       "name": "Chimaera",
       "tagline": "A game launcher with friends built in.",
       "description": "Library, downloads, cloud save backups to Google Drive and a Friends tab that talks to Messapp.",
       "icon": "/Skibidevs/assets/img/apps/chimaera.png",
-      "repo": "Shaiyon69/apptic-releases",
+      "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "chimaera-",
       "assets": { "windows": "^chimaera-.*-setup\\.exe$" },
-      "featured": true
+      "featured": true,
+      "screenshots": [
+        { "src": "/Skibidevs/assets/img/shots/chimaera/home.jpg", "caption": "Home: featured and trending games" },
+        { "src": "/Skibidevs/assets/img/shots/chimaera/catalogue.jpg", "caption": "Catalogue with filters for genre, tags and release year" },
+        { "src": "/Skibidevs/assets/img/shots/chimaera/library.jpg", "caption": "Your library with playtime and achievement progress" },
+        { "src": "/Skibidevs/assets/img/shots/chimaera/game.jpg", "caption": "Game page with launch options, media and achievements" }
+      ]
     },
     {
       "id": "nyxplorer",
+      "color": "#2dd4bf",
       "name": "Nyxplorer",
       "tagline": "A modern file manager for Windows.",
       "description": "A file manager based on Files by the Files Community.",
+      "icon": "/Skibidevs/assets/img/apps/nyxplorer.svg",
       "repo": "Shaiyon69/Nyxplorer",
       "assets": { "windows": "^Nyxplorer-Setup-.*\\.exe$" }
     },
     {
       "id": "teyvault",
+      "color": "#f97316",
       "name": "Teyvault",
       "tagline": "A Genshin Impact companion.",
       "description": "Daily check-in, a wish tracker with pity and 50/50 stats, builds and a searchable wiki.",
+      "icon": "/Skibidevs/assets/img/apps/teyvault.png",
       "repo": "Shaiyon69/teyvault",
-      "assets": { "windows": "Setup\\.exe$", "android": "\\.apk$" }
-    },
-    {
-      "id": "brhp-msam",
-      "name": "BRHP-MSAM",
-      "tagline": "Barangay health profiling, offline first.",
-      "description": "Barangay Health Workers profile residents offline, record health checks and immunizations, and log supply releases. Records sync to a central backend for the health offices.",
-      "repo": "Shaiyon69/project-mabisa",
-      "assets": { "android": "\\.apk$" }
+      "assets": { "windows": "Setup\\.exe$", "android": "\\.apk$" },
+      "screenshots": [
+        { "src": "/Skibidevs/assets/img/shots/teyvault/dashboard.png", "caption": "Dashboard: check-in status, promo codes and the month's daily rewards" },
+        { "src": "/Skibidevs/assets/img/shots/teyvault/wishes-dark.png", "caption": "Pity meters for each banner with 50/50 stats" },
+        { "src": "/Skibidevs/assets/img/shots/teyvault/checkin-dark.png", "caption": "The month's check-in calendar" },
+        { "src": "/Skibidevs/assets/img/shots/teyvault/codes-dark.png", "caption": "Promo codes with their redeem results" },
+        { "src": "/Skibidevs/assets/img/shots/teyvault/events-dark.png", "caption": "Event timeline for the next few weeks" },
+        { "src": "/Skibidevs/assets/img/shots/teyvault/characters-dark.png", "caption": "Owned characters with levels" },
+        { "src": "/Skibidevs/assets/img/shots/teyvault/sync-dark.png", "caption": "Share wish history from PC to phone with a PIN" }
+      ]
     }
   ]
 }

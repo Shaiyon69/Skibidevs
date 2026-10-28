@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const { esc, fetchJson, appIcon } = window.SD;
+    const { esc, fetchJson, appIcon, tint, transition } = window.SD;
     const grid = document.getElementById('projectGrid');
     const filters = document.getElementById('projectFilters');
 
@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const categories = ['All', ...new Set(projects.map((project) => project.category).filter(Boolean))];
     let active = 'All';
+    // Each category gets the next hue, so cards group by color without a hand-kept map.
+    const HUES = ['#22d3ee', '#a78bfa', '#f472b6', '#4ade80', '#fbbf24', '#f97316', '#3b82f6'];
+    const hueOf = (project) => HUES[Math.max(0, categories.indexOf(project.category) - 1) % HUES.length];
 
     // GitHub preview cards are wide banners full of text, so only local app art works as an icon.
     const iconOf = (project) => (/^\/Skibidevs\/(assets\/img\/apps|webvallaria)\//.test(project.image || '') ? project.image : '');
@@ -20,21 +23,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     const row = (project) => {
         let href = '';
         let action = '';
-        if (project.apptic) [href, action] = [`/Skibidevs/apptic/?app=${encodeURIComponent(project.apptic)}`, 'Get'];
+        if (project.apptic) [href, action] = [`/Skibidevs/apptic/?app=${encodeURIComponent(project.apptic)}`, 'Download'];
         else if (project.liveUrl) [href, action] = [project.liveUrl, 'Open'];
         else if (project.githubUrl) [href, action] = [project.githubUrl, 'Code'];
         const tag = href ? 'a' : 'div';
         const chips = [project.category, ...(project.techStack || []).slice(0, 3)].filter(Boolean)
             .map((name) => `<span class="chip">${esc(name)}</span>`).join('');
         return `
-            <${tag} class="app-row project-row"${href ? ` href="${esc(href)}"${href.startsWith('http') ? ' rel="noopener"' : ''}` : ''}>
-                ${appIcon({ name: project.name, icon: iconOf(project) })}
-                <span class="app-text">
+            <${tag} class="tile tint project-tile"${href ? ` href="${esc(href)}"${href.startsWith('http') ? ' rel="noopener"' : ''}` : ''}${tint(hueOf(project))}>
+                <span class="tile-top">${appIcon({ name: project.name, icon: iconOf(project) })}${action ? `<span class="get">${action}</span>` : ''}</span>
+                <span>
                     <span class="app-name">${esc(project.name)}</span>
                     <span class="tagline">${esc(project.description)}</span>
-                    <span class="chips">${chips}</span>
                 </span>
-                ${action ? `<span class="get">${action}</span>` : '<span></span>'}
+                <span class="chips">${chips}</span>
             </${tag}>`;
     };
 
@@ -56,8 +58,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!button) return;
         active = button.dataset.filter;
         // Flip state in place so keyboard focus stays on the pressed button.
-        filters.querySelectorAll('[data-filter]').forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
-        draw();
+        transition(() => {
+            filters.querySelectorAll('[data-filter]').forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
+            draw();
+        });
     });
     draw();
 });

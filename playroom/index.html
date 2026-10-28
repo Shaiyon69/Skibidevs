@@ -9,58 +9,88 @@
     <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto:wght@800&family=Figtree:wght@400;600;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto:wght@800&family=Figtree:wght@400;500;600;700;800&display=swap">
     <link rel="stylesheet" href="/Skibidevs/assets/css/site.css">
     <script src="/Skibidevs/assets/js/site.js" defer></script>
     <script src="/Skibidevs/assets/js/playroom.js" defer></script>
 </head>
-<body>
+<body class="tint" data-section="play">
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="topbar">
-        <a class="wordmark" href="/Skibidevs/">Skibidevs</a>
-        <nav class="tabs" aria-label="Sections">
-            <a href="/Skibidevs/apptic/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg><span>Apps</span></a>
-            <a href="/Skibidevs/playroom/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3"/><circle cx="16" cy="11.5" r="1"/><circle cx="18" cy="13.5" r="1"/></svg><span>Play</span></a>
-            <a href="/Skibidevs/appendix/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span>More</span></a>
-        </nav>
-        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch light or dark theme" title="Switch theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-    </header>
+    <div class="shell">
+        <aside class="sidenav" aria-label="Site">
+            <a class="wordmark" href="/Skibidevs/">Skibidevs</a>
+            <nav class="tabs" aria-label="Sections">
+                <a href="/Skibidevs/apptic/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg><span>Apps</span></a>
+                <a href="/Skibidevs/playroom/" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3"/><circle cx="16" cy="11.5" r="1"/><circle cx="18" cy="13.5" r="1"/></svg><span>Play</span></a>
+                <a href="/Skibidevs/appendix/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span>More</span></a>
+            </nav>
+            <div class="quick" id="quickApps" hidden>
+                <p class="side-label">Jump to</p>
+                <ul></ul>
+            </div>
+            <div class="side-foot">
+                <a class="side-link" href="https://github.com/Shaiyon69" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg><span>GitHub</span></a>
+                <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch light or dark theme" title="Switch theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+            </div>
+        </aside>
 
-    <main id="main">
-        <header class="detail-head">
-            <img class="app-icon lg" src="/Skibidevs/assets/img/apps/convallaria.png" alt="" width="112" height="112">
-            <div>
+        <main id="main">
+            <header class="page-head">
                 <p class="eyebrow">Playroom</p>
                 <h1>Convallaria</h1>
-                <p class="tagline">A cozy farming RPG where death enriches the soil.</p>
-                <p class="meta">Prototype &middot; about 70 MB &middot; keyboard and mouse</p>
-            </div>
-        </header>
+                <p>A cozy farming RPG where death enriches the soil. Prototype &middot; about 70 MB &middot; keyboard and mouse.</p>
+            </header>
 
-        <div class="game-stage" id="gameStage">
-            <div class="game-start">
-                <button class="btn btn-lg" id="startGame" type="button">Play in browser</button>
-                <p class="meta">Loads about 70 MB, so Wi-Fi is a good idea.</p>
-                <p class="meta" id="touchNote" hidden>Made for keyboard and mouse, so it plays best on a computer.</p>
-            </div>
-        </div>
+            <div class="play-layout">
+                <div class="game-stage" id="gameStage">
+                    <div class="game-start">
+                        <div class="backdrop" aria-hidden="true"></div>
+                        <img class="art" src="/Skibidevs/assets/img/apps/convallaria.png" alt="" width="96" height="96">
+                        <button class="btn btn-lg" id="startGame" type="button">Play in browser</button>
+                        <p class="meta">Loads about 70 MB, so Wi-Fi is a good idea.</p>
+                        <p class="meta" id="touchNote" hidden>Made for keyboard and mouse, so it plays best on a computer.</p>
+                    </div>
+                </div>
 
-        <section class="block">
-            <h2>About</h2>
-            <p>Each death moves the world forward a day and leaves something behind for the next character.</p>
-            <div class="row-links">
-                <a href="/Skibidevs/webvallaria/Convallaria.html" target="_blank" rel="noopener">Open fullscreen</a>
-                <a href="https://github.com/Shaiyon69/Project_Convallaria" rel="noopener">Source on GitHub</a>
+                <section class="block">
+                    <h2>About</h2>
+                    <p>Farm, fight and die. Each death moves the world forward a day and leaves something behind for the next character.</p>
+                    <div class="row-links">
+                        <a href="/Skibidevs/webvallaria/Convallaria.html" target="_blank" rel="noopener">Open fullscreen</a>
+                        <a href="https://github.com/Shaiyon69/Project_Convallaria" rel="noopener">Source on GitHub</a>
+                    </div>
+                </section>
             </div>
-        </section>
-    </main>
+        </main>
 
-    <footer class="footer">
-        <span>&copy; 2026 Skibidevs &middot; made by Sha and friends &middot; free and open source</span>
-        <nav aria-label="Elsewhere">
-            <a href="https://github.com/Shaiyon69" rel="noopener">GitHub</a>
-            <a href="mailto:paolovaldez69@gmail.com">paolovaldez69@gmail.com</a>
-        </nav>
-    </footer>
+        <aside class="sidepanel" aria-label="Around Skibidevs">
+            <section class="panel" id="releasePanel" hidden>
+                <h2 class="side-label">Latest releases</h2>
+                <ul class="release-list" id="releaseList"></ul>
+            </section>
+            <a class="panel play-card tint" href="/Skibidevs/playroom/" style="--app:#f472b6">
+                <img src="/Skibidevs/assets/img/apps/convallaria.png" alt="" width="56" height="56">
+                <strong>Convallaria</strong>
+                <span>A cozy farming RPG. Runs in your browser.</span>
+                <span class="get">Play</span>
+            </a>
+            <section class="panel">
+                <h2 class="side-label">The deal</h2>
+                <ul class="deal">
+                    <li style="--c:#4ade80">Free, every app</li>
+                    <li style="--c:#fbbf24">No ads, no tracking</li>
+                    <li style="--c:#22d3ee">No accounts to buy</li>
+                    <li style="--c:#a78bfa">Open source on GitHub</li>
+                </ul>
+            </section>
+            <footer class="footer">
+                <span>&copy; 2026 Skibidevs &middot; made by Sha and friends</span>
+                <nav aria-label="Elsewhere">
+                    <a href="https://github.com/Shaiyon69" rel="noopener">GitHub</a>
+                    <a href="mailto:paolovaldez69@gmail.com">paolovaldez69@gmail.com</a>
+                </nav>
+            </footer>
+        </aside>
+    </div>
 </body>
 </html>
