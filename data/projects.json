@@ -2,53 +2,6 @@
   "githubUsername": "Shaiyon69",
   "projects": [
     {
-      "name": "MessApp",
-      "repo": "MessApp",
-      "featured": true,
-      "category": "Web App",
-      "purpose": "Realtime communication app built to make chat, calls, media, and mobile interaction feel polished on both web and Android.",
-      "description": "A modern chat and calling app focused on realtime messaging, mobile polish, and WebRTC communication.",
-      "features": [
-        "Realtime chat",
-        "WebRTC calls",
-        "Media attachments",
-        "Android UX polish"
-      ],
-      "techStack": [
-        "JavaScript",
-        "React",
-        "Capacitor",
-        "WebRTC",
-        "Supabase"
-      ],
-      "image": "/Skibidevs/assets/img/apps/messapp.png",
-      "liveUrl": "https://messapp-tau.vercel.app",
-      "apptic": "messapp"
-    },
-    {
-      "name": "Convallaria",
-      "repo": "Project_Convallaria",
-      "featured": true,
-      "category": "Game Dev",
-      "purpose": "A personal game prototype exploring cozy farming, combat pressure, world memory, and death-as-growth progression.",
-      "description": "A cozy top-down RPG experiment built around farming, combat, world state, and performance-focused gameplay systems.",
-      "features": [
-        "Farming loop",
-        "Combat concepts",
-        "Legacy systems",
-        "Atmospheric world design"
-      ],
-      "techStack": [
-        "GDScript",
-        "Godot",
-        "Game Design"
-      ],
-      "image": "/Skibidevs/webvallaria/Convallaria.png",
-      "githubUrl": "https://github.com/Shaiyon69/Project_Convallaria",
-      "liveUrl": "/Skibidevs/playroom/",
-      "apptic": "convallaria"
-    },
-    {
       "name": "Skibidevs",
       "repo": "shaiyon69.github.io",
       "featured": true,
