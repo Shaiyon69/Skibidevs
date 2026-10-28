@@ -1,0 +1,324 @@
+{
+  "releases": {
+    "Shaiyon69/purrch:": [
+      {
+        "tag": "v1.0.3",
+        "date": "2026-10-27T16:02:24Z",
+        "notes": "**Full Changelog**: https://github.com/Shaiyon69/purrch/compare/v1.0.2...v1.0.3",
+        "url": "https://github.com/Shaiyon69/purrch/releases/tag/v1.0.3",
+        "assets": [
+          {
+            "name": "Purrch-x86_64.AppImage",
+            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.3/Purrch-x86_64.AppImage",
+            "size": 33946104
+          },
+          {
+            "name": "PurrchSetup.exe",
+            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.3/PurrchSetup.exe",
+            "size": 2444966
+          }
+        ]
+      },
+      {
+        "tag": "v1.0.2",
+        "date": "2026-10-27T10:55:32Z",
+        "notes": "## Fixes\n- The notch stays centred on the desktop when the taskbar is on the top or a side, and it re-centres when you move the taskbar or change displays.\n\n## Downloads\n- **Windows 10/11 (64-bit):** `PurrchSetup.exe`. Not code-signed: if SmartScreen warns, click More info, then Run anyway. Installing over an older version upgrades it.\n- **Linux (x86_64):** `Purrch-x86_64.AppImage`. Needs glibc 2.39 or newer (Ubuntu 24.04+ or similar). Run `chmod +x Purrch-x86_64.AppImage`, then start it.\n",
+        "url": "https://github.com/Shaiyon69/purrch/releases/tag/v1.0.2",
+        "assets": [
+          {
+            "name": "Purrch-x86_64.AppImage",
+            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.2/Purrch-x86_64.AppImage",
+            "size": 33946104
+          },
+          {
+            "name": "PurrchSetup.exe",
+            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.2/PurrchSetup.exe",
+            "size": 2444893
+          }
+        ]
+      },
+      {
+        "tag": "v1.0.1",
+        "date": "2026-10-27T10:43:40Z",
+        "notes": "Windows and Linux builds of Purrch.\n\n## Fixes\n- Shelf: the drop zone's bottom edge no longer blinks in when you switch to the shelf page.\n- Auto-hide: the notch now hides over borderless apps that go full screen by maximizing.\n\n## New: Linux\n- First Linux build, as an AppImage (x86_64). Needs glibc 2.39 or newer (Ubuntu 24.04+ or similar). Run `chmod +x Purrch-x86_64.AppImage`, then start it.\n\n## Downloads\n- **Windows 10/11 (64-bit):** `PurrchSetup.exe`. Not code-signed: if SmartScreen warns, click More info, then Run anyway. Installing over 1.0.0 upgrades it.\n- **Linux (x86_64):** `Purrch-x86_64.AppImage`\n",
+        "url": "https://github.com/Shaiyon69/purrch/releases/tag/v1.0.1",
+        "assets": [
+          {
+            "name": "Purrch-x86_64.AppImage",
+            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.1/Purrch-x86_64.AppImage",
+            "size": 33946104
+          },
+          {
+            "name": "PurrchSetup.exe",
+            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.1/PurrchSetup.exe",
+            "size": 2445966
+          }
+        ]
+      },
+      {
+        "tag": "v1.0.0",
+        "date": "2026-10-25T19:04:10Z",
+        "notes": "First release. Windows 10/11 64-bit. Not code-signed: if SmartScreen warns, click More info, then Run anyway.",
+        "url": "https://github.com/Shaiyon69/purrch/releases/tag/v1.0.0",
+        "assets": [
+          {
+            "name": "PurrchSetup.exe",
+            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.0/PurrchSetup.exe",
+            "size": 2447106
+          }
+        ]
+      }
+    ],
+    "Shaiyon69/Skibidevs:messapp-": [
+      {
+        "tag": "v1.1.0",
+        "date": "2026-10-28T03:24:58Z",
+        "notes": "Messapp v1.1.0 for Windows and Android.",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/messapp-v1.1.0",
+        "assets": [
+          {
+            "name": "messapp-1.1.0.apk",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.1.0/messapp-1.1.0.apk",
+            "size": 3140384
+          },
+          {
+            "name": "messapp_1.1.0_x64-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.1.0/messapp_1.1.0_x64-setup.exe",
+            "size": 3286033
+          }
+        ]
+      }
+    ],
+    "Shaiyon69/Skibidevs:chimaera-": [
+      {
+        "tag": "v1.0.3",
+        "date": "2026-10-28T03:23:20Z",
+        "notes": "Chimaera v1.0.3 for Windows.",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v1.0.3",
+        "assets": [
+          {
+            "name": "chimaera-1.0.3-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v1.0.3/chimaera-1.0.3-setup.exe",
+            "size": 152001944
+          }
+        ]
+      }
+    ],
+    "Shaiyon69/Nyxplorer:": [
+      {
+        "tag": "v1.0.1",
+        "date": "2026-10-12T15:49:07Z",
+        "notes": "Nyxplorer 1.0.1, based on [Files v4.3](https://github.com/files-community/Files/releases/tag/v4.3).\r\n\r\n**Install:** download `Nyxplorer-Setup-1.0.1.0-x64.exe` and run it.\r\nWindows may show *\"Windows protected your PC\"* because Nyxplorer is signed with its own certificate: choose **More info → Run anyway**.\r\n\r\nInstalled copies update themselves from this page. Source for this release: https://github.com/Shaiyon69/Nyxplorer",
+        "url": "https://github.com/Shaiyon69/Nyxplorer/releases/tag/v1.0.1",
+        "assets": [
+          {
+            "name": "Microsoft.VCLibs.x64.14.00.appx",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.1/Microsoft.VCLibs.x64.14.00.appx",
+            "size": 896581
+          },
+          {
+            "name": "Microsoft.VCLibs.x64.14.00.Desktop.appx",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.1/Microsoft.VCLibs.x64.14.00.Desktop.appx",
+            "size": 6757465
+          },
+          {
+            "name": "Microsoft.WindowsAppRuntime.2.msix",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.1/Microsoft.WindowsAppRuntime.2.msix",
+            "size": 48675401
+          },
+          {
+            "name": "Nyxplorer-Setup-1.0.1.0-x64.exe",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.1/Nyxplorer-Setup-1.0.1.0-x64.exe",
+            "size": 147589472
+          },
+          {
+            "name": "Nyxplorer.appinstaller",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.1/Nyxplorer.appinstaller",
+            "size": 1367
+          },
+          {
+            "name": "Nyxplorer.cer",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.1/Nyxplorer.cer",
+            "size": 1034
+          },
+          {
+            "name": "Nyxplorer_1.0.1.0_x64.msixbundle",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.1/Nyxplorer_1.0.1.0_x64.msixbundle",
+            "size": 30293708
+          }
+        ]
+      },
+      {
+        "tag": "v1.0.0",
+        "date": "2026-10-11T08:27:34Z",
+        "notes": "Nyxplorer 1.0.0, based on [Files v4.2.9](https://github.com/files-community/Files/releases/tag/v4.2.9).\r\n\r\n**Install:** download `Nyxplorer-Setup-1.0.0.0-x64.exe` and run it.\r\nWindows may show *\"Windows protected your PC\"* because Nyxplorer is signed with its own certificate: choose **More info → Run anyway**.\r\n\r\nInstalled copies update themselves from this page. Source for this release: https://github.com/Shaiyon69/Nyxplorer",
+        "url": "https://github.com/Shaiyon69/Nyxplorer/releases/tag/v1.0.0",
+        "assets": [
+          {
+            "name": "Microsoft.VCLibs.x64.14.00.appx",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.0/Microsoft.VCLibs.x64.14.00.appx",
+            "size": 896581
+          },
+          {
+            "name": "Microsoft.VCLibs.x64.14.00.Desktop.appx",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.0/Microsoft.VCLibs.x64.14.00.Desktop.appx",
+            "size": 6757465
+          },
+          {
+            "name": "Microsoft.WindowsAppRuntime.2.msix",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.0/Microsoft.WindowsAppRuntime.2.msix",
+            "size": 46787781
+          },
+          {
+            "name": "Nyxplorer-Setup-1.0.0.0-x64.exe",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.0/Nyxplorer-Setup-1.0.0.0-x64.exe",
+            "size": 169141120
+          },
+          {
+            "name": "Nyxplorer.appinstaller",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.0/Nyxplorer.appinstaller",
+            "size": 1367
+          },
+          {
+            "name": "Nyxplorer.cer",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.0/Nyxplorer.cer",
+            "size": 1034
+          },
+          {
+            "name": "Nyxplorer_1.0.0.0_x64.msixbundle",
+            "url": "https://github.com/Shaiyon69/Nyxplorer/releases/download/v1.0.0/Nyxplorer_1.0.0.0_x64.msixbundle",
+            "size": 54387114
+          }
+        ]
+      }
+    ],
+    "Shaiyon69/teyvault:": [
+      {
+        "tag": "v1.5.0",
+        "date": "2026-10-08T09:17:40Z",
+        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.4.0...v1.5.0",
+        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.5.0",
+        "assets": [
+          {
+            "name": "Teyvault-Setup.exe",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.5.0/Teyvault-Setup.exe",
+            "size": 68268781
+          },
+          {
+            "name": "Teyvault.apk",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.5.0/Teyvault.apk",
+            "size": 171504566
+          }
+        ]
+      },
+      {
+        "tag": "v1.4.0",
+        "date": "2026-10-04T02:40:28Z",
+        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.3.1...v1.4.0",
+        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.4.0",
+        "assets": [
+          {
+            "name": "Teyvault-Setup.exe",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.4.0/Teyvault-Setup.exe",
+            "size": 68195899
+          },
+          {
+            "name": "Teyvault.apk",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.4.0/Teyvault.apk",
+            "size": 171441470
+          }
+        ]
+      },
+      {
+        "tag": "v1.3.1",
+        "date": "2026-10-04T02:06:04Z",
+        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.3.0...v1.3.1",
+        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.3.1",
+        "assets": [
+          {
+            "name": "Teyvault-Setup.exe",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.3.1/Teyvault-Setup.exe",
+            "size": 68188092
+          },
+          {
+            "name": "Teyvault.apk",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.3.1/Teyvault.apk",
+            "size": 171439266
+          }
+        ]
+      },
+      {
+        "tag": "v1.3.0",
+        "date": "2026-10-03T19:20:41Z",
+        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.2.0...v1.3.0\n\n**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.2.0...v1.3.0",
+        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.3.0",
+        "assets": [
+          {
+            "name": "Teyvault-Setup.exe",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.3.0/Teyvault-Setup.exe",
+            "size": 68190756
+          },
+          {
+            "name": "Teyvault.apk",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.3.0/Teyvault.apk",
+            "size": 171439058
+          }
+        ]
+      },
+      {
+        "tag": "v1.2.0",
+        "date": "2026-10-03T15:10:30Z",
+        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.1.0...v1.2.0",
+        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.2.0",
+        "assets": [
+          {
+            "name": "Teyvault-Setup.exe",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.2.0/Teyvault-Setup.exe",
+            "size": 68183513
+          },
+          {
+            "name": "Teyvault.apk",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.2.0/Teyvault.apk",
+            "size": 169257214
+          }
+        ]
+      },
+      {
+        "tag": "v1.1.0",
+        "date": "2026-10-03T13:35:34Z",
+        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.0.0...v1.1.0",
+        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.1.0",
+        "assets": [
+          {
+            "name": "Teyvault-Setup.exe",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.1.0/Teyvault-Setup.exe",
+            "size": 67691347
+          },
+          {
+            "name": "Teyvault.apk",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.1.0/Teyvault.apk",
+            "size": 164812857
+          }
+        ]
+      },
+      {
+        "tag": "v1.0.0",
+        "date": "2026-10-03T13:11:28Z",
+        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/commits/v1.0.0",
+        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.0.0",
+        "assets": [
+          {
+            "name": "Teyvault-Setup.exe",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.0.0/Teyvault-Setup.exe",
+            "size": 67682952
+          },
+          {
+            "name": "Teyvault.apk",
+            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.0.0/Teyvault.apk",
+            "size": 164803289
+          }
+        ]
+      }
+    ]
+  }
+}
