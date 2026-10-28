@@ -1,0 +1,70 @@
+{
+  "apps": [
+    {
+      "id": "purrch",
+      "name": "Purrch",
+      "tagline": "A cat that lives in your notch.",
+      "description": "Water reminders, a focus timer, to-dos, music with lyrics and a file shelf, all tucked into a little pill at the top of your screen. Runs locally; the only network call is the lyrics lookup.",
+      "icon": "/Skibidevs/assets/img/apps/purrch.png",
+      "repo": "Shaiyon69/purrch",
+      "assets": { "windows": "Setup\\.exe$", "linux": "\\.AppImage$" },
+      "featured": true
+    },
+    {
+      "id": "messapp",
+      "name": "Messapp",
+      "tagline": "Chat, calls and servers for the group.",
+      "description": "Realtime messaging with encrypted DMs, voice and video calls, servers and media. Use it in the browser, or install it on Windows or Android.",
+      "icon": "/Skibidevs/assets/img/apps/messapp.png",
+      "web": "https://messapp-tau.vercel.app",
+      "repo": "Shaiyon69/apptic-releases",
+      "tagPrefix": "messapp-",
+      "assets": { "windows": "^messapp_.*_x64-setup\\.exe$", "android": "^messapp.*\\.apk$" },
+      "featured": true
+    },
+    {
+      "id": "convallaria",
+      "name": "Convallaria",
+      "tagline": "A cozy farming RPG where death enriches the soil.",
+      "description": "Farm, fight and die: each death advances the world a day and leaves something behind for the next character. A prototype that runs in your browser.",
+      "icon": "/Skibidevs/assets/img/apps/convallaria.png",
+      "play": "/Skibidevs/playroom/",
+      "featured": true
+    },
+    {
+      "id": "chimaera",
+      "name": "Chimaera",
+      "tagline": "A game launcher with friends built in.",
+      "description": "Library, downloads, cloud save backups to Google Drive and a Friends tab that talks to Messapp.",
+      "icon": "/Skibidevs/assets/img/apps/chimaera.png",
+      "repo": "Shaiyon69/apptic-releases",
+      "tagPrefix": "chimaera-",
+      "assets": { "windows": "^chimaera-.*-setup\\.exe$" },
+      "featured": true
+    },
+    {
+      "id": "nyxplorer",
+      "name": "Nyxplorer",
+      "tagline": "A modern file manager for Windows.",
+      "description": "A file manager based on Files by the Files Community.",
+      "repo": "Shaiyon69/Nyxplorer",
+      "assets": { "windows": "^Nyxplorer-Setup-.*\\.exe$" }
+    },
+    {
+      "id": "teyvault",
+      "name": "Teyvault",
+      "tagline": "A Genshin Impact companion.",
+      "description": "Daily check-in, a wish tracker with pity and 50/50 stats, builds and a searchable wiki.",
+      "repo": "Shaiyon69/teyvault",
+      "assets": { "windows": "Setup\\.exe$", "android": "\\.apk$" }
+    },
+    {
+      "id": "brhp-msam",
+      "name": "BRHP-MSAM",
+      "tagline": "Barangay health profiling, offline first.",
+      "description": "Barangay Health Workers profile residents offline, record health checks and immunizations, and log supply releases. Records sync to a central backend for the health offices.",
+      "repo": "Shaiyon69/project-mabisa",
+      "assets": { "android": "\\.apk$" }
+    }
+  ]
+}

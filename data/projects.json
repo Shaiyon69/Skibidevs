@@ -1,0 +1,139 @@
+{
+  "githubUsername": "Shaiyon69",
+  "projects": [
+    {
+      "name": "MessApp",
+      "repo": "MessApp",
+      "featured": true,
+      "category": "Web App",
+      "purpose": "Realtime communication app built to make chat, calls, media, and mobile interaction feel polished on both web and Android.",
+      "description": "A modern chat and calling app focused on realtime messaging, mobile polish, and WebRTC communication.",
+      "features": [
+        "Realtime chat",
+        "WebRTC calls",
+        "Media attachments",
+        "Android UX polish"
+      ],
+      "techStack": [
+        "JavaScript",
+        "React",
+        "Capacitor",
+        "WebRTC",
+        "Supabase"
+      ],
+      "relatedDevLogs": [
+        "messapp-mobile-polish"
+      ],
+      "image": "/Skibidevs/assets/img/apps/messapp.png",
+      "liveUrl": "https://messapp-tau.vercel.app",
+      "apptic": "messapp"
+    },
+    {
+      "name": "Convallaria",
+      "repo": "Project_Convallaria",
+      "featured": true,
+      "category": "Game Dev",
+      "purpose": "A personal game prototype exploring cozy farming, combat pressure, world memory, and death-as-growth progression.",
+      "description": "A cozy top-down RPG experiment built around farming, combat, world state, and performance-focused gameplay systems.",
+      "features": [
+        "Farming loop",
+        "Combat concepts",
+        "Legacy systems",
+        "Atmospheric world design"
+      ],
+      "techStack": [
+        "GDScript",
+        "Godot",
+        "Game Design"
+      ],
+      "relatedDevLogs": [
+        "convallaria-design"
+      ],
+      "image": "/Skibidevs/webvallaria/Convallaria.png",
+      "githubUrl": "https://github.com/Shaiyon69/Project_Convallaria",
+      "liveUrl": "/Skibidevs/playroom/",
+      "apptic": "convallaria"
+    },
+    {
+      "name": "Skibidevs",
+      "repo": "shaiyon69.github.io",
+      "featured": true,
+      "category": "Frontend",
+      "purpose": "The site you are on: a static GitHub Pages site with an app store, a dev blog, a playable game and this project list.",
+      "description": "Skibidevs: Apptic, Playroom, Scrappbook and Appendix as plain HTML, CSS and JavaScript with no build step.",
+      "features": [
+        "Apptic store with live GitHub releases",
+        "Playable Godot web build",
+        "JSON-driven dev logs",
+        "OLED dark and light themes"
+      ],
+      "techStack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "relatedDevLogs": [
+        "portfolio-refresh"
+      ],
+      "image": "https://opengraph.githubassets.com/skibidevs/Shaiyon69/shaiyon69.github.io",
+      "githubUrl": "https://github.com/Shaiyon69/shaiyon69.github.io"
+    },
+    {
+      "name": "ISUVentra",
+      "repo": "IsuVentra-Main",
+      "featured": false,
+      "category": "Mobile/API",
+      "purpose": "Event operations tool for organizing registrations, attendance checks, and event tracking workflows.",
+      "description": "An event and attendance tracking system designed to manage registrations and track attendance efficiently.",
+      "features": [
+        "Event records",
+        "Attendance tracking",
+        "Mobile-first workflow"
+      ],
+      "techStack": [
+        "Dart",
+        "Flutter",
+        "API"
+      ],
+      "image": "https://opengraph.githubassets.com/shaiyon-portfolio/Shaiyon69/IsuVentra-Main",
+      "githubUrl": "https://github.com/Shaiyon69/IsuVentra-Main"
+    },
+    {
+      "name": "Task Management System",
+      "repo": "Task-Management-App",
+      "featured": false,
+      "category": "Web App",
+      "purpose": "Student task workflow for organizing assignments and simple productivity records.",
+      "description": "A task management project for creating, updating, and organizing tasks with a clean student-project workflow.",
+      "features": [
+        "Task creation",
+        "Task updates",
+        "Organized task views"
+      ],
+      "techStack": [
+        "Vue",
+        "JavaScript"
+      ],
+      "image": "https://opengraph.githubassets.com/shaiyon-portfolio/Shaiyon69/Task-Management-App",
+      "githubUrl": "https://github.com/Shaiyon69/Task-Management-App"
+    },
+    {
+      "name": "Accounting Automation",
+      "repo": "Accounting-Automation",
+      "featured": false,
+      "category": "Business Tool",
+      "purpose": "Business process prototype for reducing repetitive accounting work and making financial records easier to manage.",
+      "description": "An automated accounting system designed to streamline financial processes and improve efficiency.",
+      "features": [
+        "Accounting records",
+        "Process automation",
+        "MySQL-backed storage"
+      ],
+      "techStack": [
+        "PHP",
+        "MySQL"
+      ],
+      "image": "/Skibidevs/assets/img/task.svg"
+    }
+  ]
+}

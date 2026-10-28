@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Scrappbook · Skibidevs</title>
+    <meta name="description" content="Dev logs and notes from building Skibidevs apps and Convallaria.">
+    <link rel="icon" href="/Skibidevs/assets/img/favicon.svg" type="image/svg+xml">
+    <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Doto:wght@800&family=Figtree:wght@400;600;800&display=swap">
+    <link rel="stylesheet" href="/Skibidevs/assets/css/site.css">
+    <script src="/Skibidevs/assets/js/site.js" defer></script>
+    <script src="/Skibidevs/assets/js/scrappbook.js" defer></script>
+</head>
+<body data-room="scrappbook">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="topbar">
+        <a class="wordmark" href="/Skibidevs/">Skibidevs</a>
+        <nav class="tabs" aria-label="Sections">
+            <a href="/Skibidevs/apptic/" title="App store"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l1 13H5L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span>Apptic</span></a>
+            <a href="/Skibidevs/playroom/" title="Play Convallaria"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3"/><circle cx="16" cy="11.5" r="1"/><circle cx="18" cy="13.5" r="1"/></svg><span>Playroom</span></a>
+            <a href="/Skibidevs/scrappbook/" title="Dev blog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5z"/><path d="M4 19a2 2 0 0 1 2-2h13"/></svg><span>Scrappbook</span></a>
+            <a href="/Skibidevs/appendix/" title="Other projects"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/></svg><span>Appendix</span></a>
+        </nav>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch light or dark theme" title="Switch theme"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+    </header>
+
+    <main id="main">
+        <div id="listView">
+            <header class="page-head">
+                <h1><mark>Scrappbook</mark>, the dev log</h1>
+                <p class="scribble" aria-hidden="true">notes from the workbench</p>
+                <p>Dev logs, design notes and what changed, app by app.</p>
+            </header>
+            <label class="sr-only" for="postSearch">Search posts</label>
+            <input class="search" id="postSearch" type="search" placeholder="Search posts, apps or tags" autocomplete="off">
+            <div class="post-list" id="postList" aria-live="polite"><div class="skeleton post-skeleton"></div><div class="skeleton post-skeleton"></div><div class="skeleton post-skeleton"></div></div>
+        </div>
+        <article class="article" id="postView" hidden></article>
+    </main>
+
+    <footer class="footer">
+        <span>&copy; 2026 Skibidevs &middot; made by Sha and friends &middot; free and open source</span>
+        <nav aria-label="Elsewhere">
+            <a href="https://github.com/Shaiyon69" rel="noopener">GitHub</a>
+            <a href="mailto:paolovaldez69@gmail.com">paolovaldez69@gmail.com</a>
+        </nav>
+    </footer>
+</body>
+</html>
