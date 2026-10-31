@@ -2,24 +2,6 @@
   "releases": {
     "Shaiyon69/Skibidevs:purrch-": [
       {
-        "tag": "v1.1.0",
-        "date": "2026-10-28T08:31:23Z",
-        "notes": "**Full Changelog**: https://github.com/Shaiyon69/purrch/compare/v1.0.3...v1.1.0",
-        "url": "https://github.com/Shaiyon69/purrch/releases/tag/v1.1.0",
-        "assets": [
-          {
-            "name": "Purrch-x86_64.AppImage",
-            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.1.0/Purrch-x86_64.AppImage",
-            "size": 33950200
-          },
-          {
-            "name": "PurrchSetup.exe",
-            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.1.0/PurrchSetup.exe",
-            "size": 2463872
-          }
-        ]
-      },
-      {
         "tag": "v1.0.3",
         "date": "2026-10-31T13:30:13Z",
         "notes": "Changes: https://github.com/Shaiyon69/purrch/compare/v1.0.2...v1.0.3",
