@@ -1,6 +1,6 @@
 {
   "releases": {
-    "Shaiyon69/purrch:": [
+    "Shaiyon69/Skibidevs:purrch-": [
       {
         "tag": "v1.1.0",
         "date": "2026-10-28T08:31:23Z",
@@ -21,68 +21,19 @@
       },
       {
         "tag": "v1.0.3",
-        "date": "2026-10-27T16:02:24Z",
-        "notes": "**Full Changelog**: https://github.com/Shaiyon69/purrch/compare/v1.0.2...v1.0.3",
-        "url": "https://github.com/Shaiyon69/purrch/releases/tag/v1.0.3",
+        "date": "2026-10-31T13:30:13Z",
+        "notes": "Changes: https://github.com/Shaiyon69/purrch/compare/v1.0.2...v1.0.3",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/purrch-v1.0.3",
         "assets": [
           {
             "name": "Purrch-x86_64.AppImage",
-            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.3/Purrch-x86_64.AppImage",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/purrch-v1.0.3/Purrch-x86_64.AppImage",
             "size": 33946104
           },
           {
             "name": "PurrchSetup.exe",
-            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.3/PurrchSetup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/purrch-v1.0.3/PurrchSetup.exe",
             "size": 2444966
-          }
-        ]
-      },
-      {
-        "tag": "v1.0.2",
-        "date": "2026-10-27T10:55:32Z",
-        "notes": "## Fixes\n- The notch stays centred on the desktop when the taskbar is on the top or a side, and it re-centres when you move the taskbar or change displays.\n\n## Downloads\n- **Windows 10/11 (64-bit):** `PurrchSetup.exe`. Not code-signed: if SmartScreen warns, click More info, then Run anyway. Installing over an older version upgrades it.\n- **Linux (x86_64):** `Purrch-x86_64.AppImage`. Needs glibc 2.39 or newer (Ubuntu 24.04+ or similar). Run `chmod +x Purrch-x86_64.AppImage`, then start it.\n",
-        "url": "https://github.com/Shaiyon69/purrch/releases/tag/v1.0.2",
-        "assets": [
-          {
-            "name": "Purrch-x86_64.AppImage",
-            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.2/Purrch-x86_64.AppImage",
-            "size": 33946104
-          },
-          {
-            "name": "PurrchSetup.exe",
-            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.2/PurrchSetup.exe",
-            "size": 2444893
-          }
-        ]
-      },
-      {
-        "tag": "v1.0.1",
-        "date": "2026-10-27T10:43:40Z",
-        "notes": "Windows and Linux builds of Purrch.\n\n## Fixes\n- Shelf: the drop zone's bottom edge no longer blinks in when you switch to the shelf page.\n- Auto-hide: the notch now hides over borderless apps that go full screen by maximizing.\n\n## New: Linux\n- First Linux build, as an AppImage (x86_64). Needs glibc 2.39 or newer (Ubuntu 24.04+ or similar). Run `chmod +x Purrch-x86_64.AppImage`, then start it.\n\n## Downloads\n- **Windows 10/11 (64-bit):** `PurrchSetup.exe`. Not code-signed: if SmartScreen warns, click More info, then Run anyway. Installing over 1.0.0 upgrades it.\n- **Linux (x86_64):** `Purrch-x86_64.AppImage`\n",
-        "url": "https://github.com/Shaiyon69/purrch/releases/tag/v1.0.1",
-        "assets": [
-          {
-            "name": "Purrch-x86_64.AppImage",
-            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.1/Purrch-x86_64.AppImage",
-            "size": 33946104
-          },
-          {
-            "name": "PurrchSetup.exe",
-            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.1/PurrchSetup.exe",
-            "size": 2445966
-          }
-        ]
-      },
-      {
-        "tag": "v1.0.0",
-        "date": "2026-10-25T19:04:10Z",
-        "notes": "First release. Windows 10/11 64-bit. Not code-signed: if SmartScreen warns, click More info, then Run anyway.",
-        "url": "https://github.com/Shaiyon69/purrch/releases/tag/v1.0.0",
-        "assets": [
-          {
-            "name": "PurrchSetup.exe",
-            "url": "https://github.com/Shaiyon69/purrch/releases/download/v1.0.0/PurrchSetup.exe",
-            "size": 2447106
           }
         ]
       }

@@ -7,7 +7,8 @@
       "tagline": "A cat that lives in your notch.",
       "description": "Water reminders, a focus timer, to-dos, music with lyrics and a file shelf, all tucked into a little pill at the top of your screen. Runs locally; the only network call is the lyrics lookup.",
       "icon": "/Skibidevs/assets/img/apps/purrch.png",
-      "repo": "Shaiyon69/purrch",
+      "repo": "Shaiyon69/Skibidevs",
+      "tagPrefix": "purrch-",
       "assets": { "windows": "Setup\\.exe$", "linux": "\\.AppImage$" },
       "featured": true
     },
@@ -21,7 +22,7 @@
       "web": "https://messapp-tau.vercel.app",
       "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "messapp-",
-      "assets": { "windows": "^messapp_.*_x64-setup\\.exe$", "android": "^messapp.*\\.apk$" },
+      "assets": { "windows": "^messapp.*\\.exe$", "linux": "^messapp.*\\.AppImage$", "android": "^messapp.*\\.apk$" },
       "screenshots": [
         { "src": "/Skibidevs/assets/img/shots/messapp/dashboard.png", "caption": "Friends list and direct messages" },
         { "src": "/Skibidevs/assets/img/shots/messapp/servers.png", "caption": "Servers with text and voice channels" },

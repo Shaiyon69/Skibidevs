@@ -1,6 +1,6 @@
 name: Refresh releases
 
-# Keeps data/releases.json in step with each app's GitHub releases. Runs hourly, by hand, or when an
+# Keeps data/releases.json and updates/<app>/latest.json in step with each app's GitHub releases. Runs hourly, by hand, or when an
 # app's release workflow sends a repository_dispatch event of type "app-released".
 on:
   schedule:
@@ -25,11 +25,24 @@ jobs:
       - run: node scripts/build-releases.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Tauri apps check https://shaiyon69.github.io/Skibidevs/updates/<app>/latest.json for updates.
+      - name: Publish updater manifests
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for app in chimaera messapp; do
+            tag=$(gh release list --repo "$GITHUB_REPOSITORY" --exclude-drafts --exclude-pre-releases --limit 100 --json tagName --jq "map(select(.tagName | startswith(\"$app-v\")))[0].tagName // empty")
+            [ -n "$tag" ] || continue
+            mkdir -p "updates/$app"
+            # Releases made before the updater shipped have no latest.json; keep the last good one.
+            gh release download "$tag" --repo "$GITHUB_REPOSITORY" --pattern latest.json --output "updates/$app/latest.json" --clobber || echo "$tag has no latest.json"
+          done
       - name: Commit if changed
         run: |
-          git diff --quiet -- data/releases.json && exit 0
+          git add data/releases.json
+          if [ -d updates ]; then git add updates; fi
+          git diff --cached --quiet && exit 0
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/releases.json
           git commit -m "chore: refresh releases"
           git push
