@@ -2,6 +2,24 @@
   "releases": {
     "Shaiyon69/Skibidevs:purrch-": [
       {
+        "tag": "v1.1.0",
+        "date": "2026-11-01T09:48:24Z",
+        "notes": "Changes: https://github.com/Shaiyon69/purrch/compare/v1.0.3...v1.1.0",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/purrch-v1.1.0",
+        "assets": [
+          {
+            "name": "Purrch-x86_64.AppImage",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/purrch-v1.1.0/Purrch-x86_64.AppImage",
+            "size": 33950200
+          },
+          {
+            "name": "PurrchSetup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/purrch-v1.1.0/PurrchSetup.exe",
+            "size": 2463872
+          }
+        ]
+      },
+      {
         "tag": "v1.0.3",
         "date": "2026-10-31T13:30:13Z",
         "notes": "Changes: https://github.com/Shaiyon69/purrch/compare/v1.0.2...v1.0.3",
@@ -22,6 +40,49 @@
     ],
     "Shaiyon69/Skibidevs:messapp-": [
       {
+        "tag": "v1.2.0",
+        "date": "2026-11-01T09:49:53Z",
+        "notes": "Messapp v1.2.0",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/messapp-v1.2.0",
+        "assets": [
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.2.0/latest.json",
+            "size": 1261
+          },
+          {
+            "name": "MessApp-Android-v1.2.0.apk",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.2.0/MessApp-Android-v1.2.0.apk",
+            "size": 6537998
+          },
+          {
+            "name": "MessApp-Linux-v1.2.0.AppImage",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.2.0/MessApp-Linux-v1.2.0.AppImage",
+            "size": 83327480
+          },
+          {
+            "name": "MessApp-Linux-v1.2.0.deb",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.2.0/MessApp-Linux-v1.2.0.deb",
+            "size": 5110686
+          },
+          {
+            "name": "MessApp-Linux-v1.2.0.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.2.0/MessApp-Linux-v1.2.0.sig",
+            "size": 420
+          },
+          {
+            "name": "MessApp-Windows-v1.2.0.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.2.0/MessApp-Windows-v1.2.0.exe",
+            "size": 4057282
+          },
+          {
+            "name": "MessApp-Windows-v1.2.0.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.2.0/MessApp-Windows-v1.2.0.sig",
+            "size": 416
+          }
+        ]
+      },
+      {
         "tag": "v1.1.0",
         "date": "2026-10-28T03:24:58Z",
         "notes": "Messapp v1.1.0 for Windows and Android.",
@@ -41,6 +102,29 @@
       }
     ],
     "Shaiyon69/Skibidevs:chimaera-": [
+      {
+        "tag": "v2.0.0",
+        "date": "2026-11-01T09:47:52Z",
+        "notes": "Chimaera v2.0.0",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.0.0",
+        "assets": [
+          {
+            "name": "chimaera-2.0.0-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.0/chimaera-2.0.0-setup.exe",
+            "size": 37303684
+          },
+          {
+            "name": "chimaera-2.0.0-setup.exe.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.0/chimaera-2.0.0-setup.exe.sig",
+            "size": 436
+          },
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.0/latest.json",
+            "size": 691
+          }
+        ]
+      },
       {
         "tag": "v1.0.3",
         "date": "2026-10-28T03:23:20Z",
