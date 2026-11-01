@@ -1,0 +1,11 @@
+{
+  "version": "1.0.1",
+  "notes": "Messenger 1.0.1",
+  "pub_date": "2026-11-01T08:24:48.914Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUYnlLcTRjSDZwOGN6U2JneUVhdnRzNm1kWDN2UEcvamhBN1FtUklvUkNzQ0h4QUpydFBmWFNINHJ1Sk9uMjl5bHBFNktCVUNZc1plK2tlUFNraXZ3T2JiRXVCb280cGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTIxNDg4CWZpbGU6TWVzc2VuZ2VyXzEuMC4xX3g2NF9lbi1VUy5tc2kKZU9xenBDOFdncGRpdGh5dnZRelZId0swTjB6NXVGYW9JQUtNcGVWajI0eGR6NDlYeTZNV0xNRHUvU2RpMFNPQUx0NDRJSE9iN21qQjBkNDhqL2VBRHc9PQo=",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-messenger-v1.0.1/Messenger.msi"
+    }
+  }
+}
