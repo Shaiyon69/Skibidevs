@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const top = apps.find((app) => app.featured && app.repo) || apps[0];
         // The game gets a wide tile of its own; the featured app gets the big one.
         const games = apps.filter((app) => app.play);
-        const rest = apps.filter((app) => app !== top && !app.play);
+        // Home shows our own apps; Shaiyon Apps and the builder live on the Apps page.
+        const rest = apps.filter((app) => app !== top && !app.play && (app.group || 'ecosystem') === 'ecosystem');
         const feature = top ? `
             <a class="tile tint tile-feature" href="${esc(appUrl(top))}"${tint(top.color, tileName(top))}>
                 ${appIcon(top)}

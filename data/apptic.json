@@ -9,8 +9,12 @@
       "icon": "/Skibidevs/assets/img/apps/purrch.png",
       "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "purrch-",
-      "assets": { "windows": "Setup\\.exe$", "linux": "\\.AppImage$" },
-      "featured": true
+      "assets": {
+        "windows": "Setup\\.exe$",
+        "linux": "\\.AppImage$"
+      },
+      "featured": true,
+      "group": "ecosystem"
     },
     {
       "id": "messapp",
@@ -22,15 +26,36 @@
       "web": "https://messapp-tau.vercel.app",
       "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "messapp-",
-      "assets": { "windows": "^messapp.*\\.exe$", "linux": "^messapp.*\\.AppImage$", "android": "^messapp.*\\.apk$" },
+      "assets": {
+        "windows": "^messapp.*\\.exe$",
+        "linux": "^messapp.*\\.AppImage$",
+        "android": "^messapp.*\\.apk$"
+      },
       "screenshots": [
-        { "src": "/Skibidevs/assets/img/shots/messapp/dashboard.png", "caption": "Friends list and direct messages" },
-        { "src": "/Skibidevs/assets/img/shots/messapp/servers.png", "caption": "Servers with text and voice channels" },
-        { "src": "/Skibidevs/assets/img/shots/messapp/calling.png", "caption": "Voice and video calls" },
-        { "src": "/Skibidevs/assets/img/shots/messapp/lightbox.png", "caption": "Media viewer for shared photos and videos" },
-        { "src": "/Skibidevs/assets/img/shots/messapp/profile.png", "caption": "Profile settings" }
+        {
+          "src": "/Skibidevs/assets/img/shots/messapp/dashboard.png",
+          "caption": "Friends list and direct messages"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/messapp/servers.png",
+          "caption": "Servers with text and voice channels"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/messapp/calling.png",
+          "caption": "Voice and video calls"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/messapp/lightbox.png",
+          "caption": "Media viewer for shared photos and videos"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/messapp/profile.png",
+          "caption": "Profile settings"
+        }
       ],
-      "featured": true
+      "featured": true,
+      "group": "ecosystem",
+      "updater": true
     },
     {
       "id": "convallaria",
@@ -42,11 +67,24 @@
       "play": "/Skibidevs/playroom/",
       "featured": true,
       "screenshots": [
-        { "src": "/Skibidevs/assets/img/shots/convallaria/title.png", "caption": "Title screen" },
-        { "src": "/Skibidevs/assets/img/shots/convallaria/preparation.png", "caption": "Spend coins on upgrades and pick a weapon before each run" },
-        { "src": "/Skibidevs/assets/img/shots/convallaria/world.png", "caption": "Explore the overworld" },
-        { "src": "/Skibidevs/assets/img/shots/convallaria/level-up.png", "caption": "Level up mid-run and choose a blessing" }
-      ]
+        {
+          "src": "/Skibidevs/assets/img/shots/convallaria/title.png",
+          "caption": "Title screen"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/convallaria/preparation.png",
+          "caption": "Spend coins on upgrades and pick a weapon before each run"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/convallaria/world.png",
+          "caption": "Explore the overworld"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/convallaria/level-up.png",
+          "caption": "Level up mid-run and choose a blessing"
+        }
+      ],
+      "group": "ecosystem"
     },
     {
       "id": "chimaera",
@@ -57,14 +95,30 @@
       "icon": "/Skibidevs/assets/img/apps/chimaera.png",
       "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "chimaera-",
-      "assets": { "windows": "^chimaera-.*-setup\\.exe$" },
+      "assets": {
+        "windows": "^chimaera-.*-setup\\.exe$"
+      },
       "featured": true,
       "screenshots": [
-        { "src": "/Skibidevs/assets/img/shots/chimaera/home.jpg", "caption": "Home: featured and trending games" },
-        { "src": "/Skibidevs/assets/img/shots/chimaera/catalogue.jpg", "caption": "Catalogue with filters for genre, tags and release year" },
-        { "src": "/Skibidevs/assets/img/shots/chimaera/library.jpg", "caption": "Your library with playtime and achievement progress" },
-        { "src": "/Skibidevs/assets/img/shots/chimaera/game.jpg", "caption": "Game page with launch options, media and achievements" }
-      ]
+        {
+          "src": "/Skibidevs/assets/img/shots/chimaera/home.jpg",
+          "caption": "Home: featured and trending games"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/chimaera/catalogue.jpg",
+          "caption": "Catalogue with filters for genre, tags and release year"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/chimaera/library.jpg",
+          "caption": "Your library with playtime and achievement progress"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/chimaera/game.jpg",
+          "caption": "Game page with launch options, media and achievements"
+        }
+      ],
+      "group": "ecosystem",
+      "updater": true
     },
     {
       "id": "nyxplorer",
@@ -74,7 +128,10 @@
       "description": "A file manager based on Files by the Files Community.",
       "icon": "/Skibidevs/assets/img/apps/nyxplorer.svg",
       "repo": "Shaiyon69/Nyxplorer",
-      "assets": { "windows": "^Nyxplorer-Setup-.*\\.exe$" }
+      "assets": {
+        "windows": "^Nyxplorer-Setup-.*\\.exe$"
+      },
+      "group": "ecosystem"
     },
     {
       "id": "teyvault",
@@ -84,16 +141,88 @@
       "description": "Daily check-in, a wish tracker with pity and 50/50 stats, builds and a searchable wiki.",
       "icon": "/Skibidevs/assets/img/apps/teyvault.png",
       "repo": "Shaiyon69/teyvault",
-      "assets": { "windows": "Setup\\.exe$", "android": "\\.apk$" },
+      "assets": {
+        "windows": "Setup\\.exe$",
+        "android": "\\.apk$"
+      },
       "screenshots": [
-        { "src": "/Skibidevs/assets/img/shots/teyvault/dashboard.png", "caption": "Dashboard: check-in status, promo codes and the month's daily rewards" },
-        { "src": "/Skibidevs/assets/img/shots/teyvault/wishes-dark.png", "caption": "Pity meters for each banner with 50/50 stats" },
-        { "src": "/Skibidevs/assets/img/shots/teyvault/checkin-dark.png", "caption": "The month's check-in calendar" },
-        { "src": "/Skibidevs/assets/img/shots/teyvault/codes-dark.png", "caption": "Promo codes with their redeem results" },
-        { "src": "/Skibidevs/assets/img/shots/teyvault/events-dark.png", "caption": "Event timeline for the next few weeks" },
-        { "src": "/Skibidevs/assets/img/shots/teyvault/characters-dark.png", "caption": "Owned characters with levels" },
-        { "src": "/Skibidevs/assets/img/shots/teyvault/sync-dark.png", "caption": "Share wish history from PC to phone with a PIN" }
-      ]
+        {
+          "src": "/Skibidevs/assets/img/shots/teyvault/dashboard.png",
+          "caption": "Dashboard: check-in status, promo codes and the month's daily rewards"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/teyvault/wishes-dark.png",
+          "caption": "Pity meters for each banner with 50/50 stats"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/teyvault/checkin-dark.png",
+          "caption": "The month's check-in calendar"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/teyvault/codes-dark.png",
+          "caption": "Promo codes with their redeem results"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/teyvault/events-dark.png",
+          "caption": "Event timeline for the next few weeks"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/teyvault/characters-dark.png",
+          "caption": "Owned characters with levels"
+        },
+        {
+          "src": "/Skibidevs/assets/img/shots/teyvault/sync-dark.png",
+          "caption": "Share wish history from PC to phone with a PIN"
+        }
+      ],
+      "group": "ecosystem"
+    },
+    {
+      "id": "youtube",
+      "group": "shaiyon-apps",
+      "color": "#ef4444",
+      "name": "YouTube",
+      "tagline": "YouTube in its own window, ads blocked.",
+      "description": "YouTube as a small Windows app, separate from your browser. uBlock Origin Lite is built in, and the app updates itself. Unofficial: not made by or affiliated with Google.",
+      "repo": "Shaiyon69/Skibidevs",
+      "tagPrefix": "shaiyon-apps-youtube-",
+      "assets": {
+        "windows": "^YouTube.msi$"
+      },
+      "updater": true
+    },
+    {
+      "id": "canva",
+      "group": "shaiyon-apps",
+      "color": "#06b6d4",
+      "name": "Canva",
+      "tagline": "Canva as a desktop app.",
+      "description": "Canva in its own lightweight window instead of a browser tab. Google, Facebook, Apple and Microsoft sign-in work inside the app, and it updates itself. Unofficial: not made by or affiliated with Canva.",
+      "repo": "Shaiyon69/Skibidevs",
+      "tagPrefix": "shaiyon-apps-canva-",
+      "assets": {
+        "windows": "^Canva.msi$"
+      },
+      "updater": true
+    },
+    {
+      "id": "messenger",
+      "group": "shaiyon-apps",
+      "color": "#6366f1",
+      "name": "Messenger",
+      "tagline": "Messenger without the browser.",
+      "description": "Facebook Messenger as a small Windows app with ads and trackers blocked by uBlock Origin Lite. It updates itself. Unofficial: not made by or affiliated with Meta.",
+      "repo": "Shaiyon69/Skibidevs",
+      "tagPrefix": "shaiyon-apps-messenger-",
+      "assets": {
+        "windows": "^Messenger.msi$"
+      },
+      "updater": true
+    }
+  ],
+  "watch": [
+    {
+      "repo": "tw93/Pake"
     }
   ]
 }

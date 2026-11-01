@@ -2,6 +2,25 @@ document.addEventListener('DOMContentLoaded', async () => {
     const SD = window.SD;
     const { esc } = SD;
     const FILTERS = ['All', 'Windows', 'Android', 'Linux', 'Web', 'Game'];
+    // Store sections, in order; an app's "group" in apptic.json picks its section.
+    const GROUPS = [
+        ['ecosystem', 'Ecosystem', 'Our own apps, built and kept up by us.'],
+        ['shaiyon-apps', 'Shaiyon Apps', 'Websites you use every day, as small desktop apps. Ads blocked, updates automatic.']
+    ];
+    const BUILD_SECTION = `
+        <section class="group" aria-labelledby="group-build">
+            <div class="group-head"><h2 id="group-build">Build your own</h2><p>Turn any website into a desktop app with our terminal builder.</p></div>
+            <div class="bento">
+                <a class="tile tint tile-wide" href="/Skibidevs/build/" style="--app:#a78bfa">
+                    <span class="app-icon app-icon-mono" aria-hidden="true">&gt;_</span>
+                    <span>
+                        <span class="app-name">pake-build <span class="version" id="pakeVersion"></span></span>
+                        <span class="tagline">Answer a few questions, get an installer for Windows, Mac or Linux. Built on Pake.</span>
+                    </span>
+                    <span class="get">Get it</span>
+                </a>
+            </div>
+        </section>`;
     const storeView = document.getElementById('storeView');
     const appView = document.getElementById('appView');
     const grid = document.getElementById('appGrid');
@@ -27,10 +46,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const draw = (active) => {
             const shown = apps.filter((app) => active === 'All' || SD.platformsOf(app).includes(active));
-            grid.innerHTML = shown.length
-                ? shown.map(SD.appCard).join('')
-                : '<div class="empty">Nothing for that platform yet.</div>';
+            const sections = GROUPS.map(([id, title, blurb]) => {
+                const list = shown.filter((app) => (app.group || 'ecosystem') === id);
+                return list.length ? `
+                    <section class="group" aria-labelledby="group-${id}">
+                        <div class="group-head"><h2 id="group-${id}">${title}</h2><p>${blurb}</p></div>
+                        <div class="bento">${list.map(SD.appCard).join('')}</div>
+                    </section>` : '';
+            }).join('');
+            grid.innerHTML = (sections || '<div class="empty">Nothing for that platform yet.</div>') + BUILD_SECTION;
             SD.hydrateCards(shown);
+            SD.latestRelease('tw93/Pake').then((release) => { document.getElementById('pakeVersion').textContent = `Pake ${release.tag.replace(/^v/i, '')}`; }).catch(() => {});
         };
 
         // Buttons stay in place and only flip aria-pressed, so keyboard focus survives a filter change.
@@ -48,7 +74,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Builds are unsigned, so each platform's guide walks through the warning it will show.
     const INSTALL_STEPS = {
         windows: ['Windows', [
-            'Download the installer (<code>.exe</code>).',
+            'Download the installer (<code>.exe</code> or <code>.msi</code>).',
             'Open it. Windows may say &ldquo;Windows protected your PC&rdquo; because the installer isn\'t signed. Choose <b>More info</b>, then <b>Run anyway</b>.',
             'Finish the setup, then open the app from the Start menu.'
         ]],
