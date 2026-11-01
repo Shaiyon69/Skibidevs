@@ -32,7 +32,8 @@ jobs:
         run: |
           # Every app marked "updater": true in data/apptic.json, by id and tag prefix.
           jq -r '.apps[] | select(.updater) | "\(.id) \(.tagPrefix)"' data/apptic.json | while read -r app prefix; do
-            tag=$(gh release list --repo "$GITHUB_REPOSITORY" --exclude-drafts --exclude-pre-releases --limit 100 --json tagName --jq "map(select(.tagName | startswith(\"${prefix}v\")))[0].tagName // empty")
+            # The list is ordered by tag date, not release date, so pick the newest published one.
+            tag=$(gh release list --repo "$GITHUB_REPOSITORY" --exclude-drafts --exclude-pre-releases --limit 100 --json tagName,publishedAt --jq "map(select(.tagName | startswith(\"${prefix}v\"))) | sort_by(.publishedAt) | last.tagName // empty")
             [ -n "$tag" ] || continue
             mkdir -p "updates/$app"
             # Releases made before the updater shipped have no latest.json; keep the last good one.
