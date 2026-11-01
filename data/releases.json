@@ -103,6 +103,29 @@
     ],
     "Shaiyon69/Skibidevs:chimaera-": [
       {
+        "tag": "v2.0.2",
+        "date": "2026-11-01T14:16:01Z",
+        "notes": "Chimaera v2.0.2: profile sorting by playtime and recently played works again, a Steam only filter on the profile Achievements tab, a smaller notification dot, and lower WebView2 memory use while the window is minimized or hidden or a game is running.",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.0.2",
+        "assets": [
+          {
+            "name": "chimaera-2.0.2-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.2/chimaera-2.0.2-setup.exe",
+            "size": 37581610
+          },
+          {
+            "name": "chimaera-2.0.2-setup.exe.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.2/chimaera-2.0.2-setup.exe.sig",
+            "size": 436
+          },
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.2/latest.json",
+            "size": 691
+          }
+        ]
+      },
+      {
         "tag": "v2.0.1",
         "date": "2026-11-01T09:25:30Z",
         "notes": "Chimaera v2.0.1: faster startup. Languages other than English, the trailer player and an unused error-reporting module now load only when needed, cutting startup JavaScript from 5.4 MB to 2.35 MB.",
