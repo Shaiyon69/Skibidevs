@@ -25,13 +25,14 @@ jobs:
       - run: node scripts/build-releases.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # Tauri apps check https://shaiyon69.github.io/Skibidevs/updates/<app>/latest.json for updates.
+      # Tauri apps (Chimaera, Messapp, Shaiyon Apps) check https://shaiyon69.github.io/Skibidevs/updates/<id>/latest.json for updates.
       - name: Publish updater manifests
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          for app in chimaera messapp; do
-            tag=$(gh release list --repo "$GITHUB_REPOSITORY" --exclude-drafts --exclude-pre-releases --limit 100 --json tagName --jq "map(select(.tagName | startswith(\"$app-v\")))[0].tagName // empty")
+          # Every app marked "updater": true in data/apptic.json, by id and tag prefix.
+          jq -r '.apps[] | select(.updater) | "\(.id) \(.tagPrefix)"' data/apptic.json | while read -r app prefix; do
+            tag=$(gh release list --repo "$GITHUB_REPOSITORY" --exclude-drafts --exclude-pre-releases --limit 100 --json tagName --jq "map(select(.tagName | startswith(\"${prefix}v\")))[0].tagName // empty")
             [ -n "$tag" ] || continue
             mkdir -p "updates/$app"
             # Releases made before the updater shipped have no latest.json; keep the last good one.

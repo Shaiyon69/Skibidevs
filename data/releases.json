@@ -270,6 +270,90 @@
           }
         ]
       }
+    ],
+    "Shaiyon69/Skibidevs:shaiyon-apps-youtube-": [
+      {
+        "tag": "v1.0.1",
+        "date": "2026-11-01T09:25:25Z",
+        "notes": "YouTube as a small Windows app, with the uBlock Origin Lite ad blocker built in. It updates itself from now on.\n\nUnofficial: not made by or affiliated with Google, and not endorsed by the Pake project.\n\n**Source (GPL-3.0):** built with [Pake](https://github.com/tw93/Pake) by tw93 at commit `tw93/Pake@ed24c60c` plus `shaiyon-apps-pake.patch` (attached): browser extension loading, a self-updater and the pake-build script. Bundles [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home) 2026.1026.1812 (GPL-3.0), unmodified.\n",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/shaiyon-apps-youtube-v1.0.1",
+        "assets": [
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-youtube-v1.0.1/latest.json",
+            "size": 698
+          },
+          {
+            "name": "shaiyon-apps-pake.patch",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-youtube-v1.0.1/shaiyon-apps-pake.patch",
+            "size": 20796
+          },
+          {
+            "name": "YouTube.msi",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-youtube-v1.0.1/YouTube.msi",
+            "size": 12609578
+          }
+        ]
+      }
+    ],
+    "Shaiyon69/Skibidevs:shaiyon-apps-canva-": [
+      {
+        "tag": "v1.0.1",
+        "date": "2026-11-01T09:25:31Z",
+        "notes": "Canva as a small Windows app, with the uBlock Origin Lite ad blocker built in. It updates itself from now on.\n\nUnofficial: not made by or affiliated with Canva, and not endorsed by the Pake project.\n\n**Source (GPL-3.0):** built with [Pake](https://github.com/tw93/Pake) by tw93 at commit `tw93/Pake@ed24c60c` plus `shaiyon-apps-pake.patch` (attached): browser extension loading, a self-updater and the pake-build script. Bundles [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home) 2026.1026.1812 (GPL-3.0), unmodified.\n",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/shaiyon-apps-canva-v1.0.1",
+        "assets": [
+          {
+            "name": "Canva.msi",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-canva-v1.0.1/Canva.msi",
+            "size": 12957716
+          },
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-canva-v1.0.1/latest.json",
+            "size": 692
+          },
+          {
+            "name": "shaiyon-apps-pake.patch",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-canva-v1.0.1/shaiyon-apps-pake.patch",
+            "size": 20796
+          }
+        ]
+      }
+    ],
+    "Shaiyon69/Skibidevs:shaiyon-apps-messenger-": [
+      {
+        "tag": "v1.0.1",
+        "date": "2026-11-01T09:25:45Z",
+        "notes": "Messenger as a small Windows app, with the uBlock Origin Lite ad blocker built in. It updates itself from now on.\n\nUnofficial: not made by or affiliated with Meta, and not endorsed by the Pake project.\n\n**Source (GPL-3.0):** built with [Pake](https://github.com/tw93/Pake) by tw93 at commit `tw93/Pake@ed24c60c` plus `shaiyon-apps-pake.patch` (attached): browser extension loading, a self-updater and the pake-build script. Bundles [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home) 2026.1026.1812 (GPL-3.0), unmodified.\n",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/shaiyon-apps-messenger-v1.0.1",
+        "assets": [
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-messenger-v1.0.1/latest.json",
+            "size": 708
+          },
+          {
+            "name": "Messenger.msi",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-messenger-v1.0.1/Messenger.msi",
+            "size": 12646536
+          },
+          {
+            "name": "shaiyon-apps-pake.patch",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/shaiyon-apps-messenger-v1.0.1/shaiyon-apps-pake.patch",
+            "size": 20796
+          }
+        ]
+      }
+    ],
+    "tw93/Pake:": [
+      {
+        "tag": "V3.17.6",
+        "date": "2026-10-17T01:58:23Z",
+        "notes": "",
+        "url": "https://github.com/tw93/Pake/releases/tag/V3.17.6",
+        "assets": []
+      }
     ]
   }
 }
