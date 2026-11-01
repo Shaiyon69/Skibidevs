@@ -78,6 +78,30 @@
         "MySQL"
       ],
       "image": "/Skibidevs/assets/img/task.svg"
+    },
+    {
+      "name": "Canva",
+      "featured": false,
+      "category": "Shaiyon Apps",
+      "description": "Canva in its own lightweight Windows window instead of a browser tab.",
+      "techStack": ["Tauri", "Windows"],
+      "liveUrl": "https://github.com/Shaiyon69/Skibidevs/releases/tag/shaiyon-apps-v1.0.0"
+    },
+    {
+      "name": "Messenger",
+      "featured": false,
+      "category": "Shaiyon Apps",
+      "description": "Facebook Messenger as a small desktop app for Windows.",
+      "techStack": ["Tauri", "Windows"],
+      "liveUrl": "https://github.com/Shaiyon69/Skibidevs/releases/tag/shaiyon-apps-v1.0.0"
+    },
+    {
+      "name": "YouTube",
+      "featured": false,
+      "category": "Shaiyon Apps",
+      "description": "YouTube as a standalone Windows app, separate from your browser.",
+      "techStack": ["Tauri", "Windows"],
+      "liveUrl": "https://github.com/Shaiyon69/Skibidevs/releases/tag/shaiyon-apps-v1.0.0"
     }
   ]
 }
