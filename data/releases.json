@@ -103,6 +103,29 @@
     ],
     "Shaiyon69/Skibidevs:chimaera-": [
       {
+        "tag": "v2.0.3",
+        "date": "2026-11-02T11:08:32Z",
+        "notes": "Chimaera v2.0.3\n\n- Terraria Guide companion on Terraria's game page: progression, class builds for 10 stages with armor materials, and 11 player guides. Pictures and wiki cards ship with the app.\n- Achievement counts now show for library games whose achievements were never fetched.",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.0.3",
+        "assets": [
+          {
+            "name": "chimaera-2.0.3-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.3/chimaera-2.0.3-setup.exe",
+            "size": 45296233
+          },
+          {
+            "name": "chimaera-2.0.3-setup.exe.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.3/chimaera-2.0.3-setup.exe.sig",
+            "size": 436
+          },
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.3/latest.json",
+            "size": 691
+          }
+        ]
+      },
+      {
         "tag": "v2.0.2",
         "date": "2026-11-01T14:16:01Z",
         "notes": "Chimaera v2.0.2: profile sorting by playtime and recently played works again, a Steam only filter on the profile Achievements tab, a smaller notification dot, and lower WebView2 memory use while the window is minimized or hidden or a game is running.",
