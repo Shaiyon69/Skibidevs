@@ -12,7 +12,7 @@ Static GitHub Pages site, no build step:
 
 Every site path starts with `/Skibidevs/` because Pages serves this repo from that subpath.
 
-Run locally: from the folder that contains this repo, serve it under a `Skibidevs` name, for example `mklink /J Skibidevs portfolio` (Windows) or `ln -s portfolio Skibidevs`, then `python -m http.server` and open http://localhost:8000/Skibidevs/.
+Run locally: from the folder that contains this repo, run `python -m http.server` and open http://localhost:8000/Skibidevs/. Every site path is prefixed `/Skibidevs/`, so the repo folder must be named `skibidevs` (Windows ignores case) or `Skibidevs` (Linux and macOS).
 
 ## Release notes
 
