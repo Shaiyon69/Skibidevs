@@ -21,9 +21,8 @@
       "color": "#3b82f6",
       "name": "Messapp",
       "tagline": "Chat, calls and servers for the group.",
-      "description": "Realtime messaging with encrypted DMs, voice and video calls, servers and media. Use it in the browser, or install it on Windows or Android.",
+      "description": "Realtime messaging with encrypted DMs, voice and video calls, servers and media. Install it on Windows, Linux or Android.",
       "icon": "/Skibidevs/assets/img/apps/messapp.png",
-      "web": "https://messapp-tau.vercel.app",
       "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "messapp-",
       "assets": {
