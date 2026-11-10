@@ -341,6 +341,44 @@
     ],
     "Shaiyon69/Skibidevs:chimaera-": [
       {
+        "tag": "v2.1.1",
+        "date": "2026-11-10T15:03:24Z",
+        "notes": "Chimaera v2.1.1",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.1.1",
+        "assets": [
+          {
+            "name": "chimaera-2.1.1-amd64.AppImage",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.1/chimaera-2.1.1-amd64.AppImage",
+            "size": 189041144
+          },
+          {
+            "name": "chimaera-2.1.1-amd64.AppImage.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.1/chimaera-2.1.1-amd64.AppImage.sig",
+            "size": 440
+          },
+          {
+            "name": "chimaera-2.1.1-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.1/chimaera-2.1.1-setup.exe",
+            "size": 41806279
+          },
+          {
+            "name": "chimaera-2.1.1-setup.exe.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.1/chimaera-2.1.1-setup.exe.sig",
+            "size": 436
+          },
+          {
+            "name": "Chimaera-Setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.1/Chimaera-Setup.exe",
+            "size": 4748288
+          },
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.1/latest.json",
+            "size": 1301
+          }
+        ]
+      },
+      {
         "tag": "v2.1.0",
         "date": "2026-11-10T12:57:18Z",
         "notes": "Chimaera v2.1.0",
