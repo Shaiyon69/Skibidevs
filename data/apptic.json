@@ -26,7 +26,7 @@
       "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "messapp-",
       "assets": {
-        "windows": "^messapp.*\\.exe$",
+        "windows": "^Messapp-Setup\\.exe$",
         "linux": "^messapp.*\\.AppImage$",
         "android": "^messapp.*\\.apk$"
       },
@@ -95,7 +95,7 @@
       "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "chimaera-",
       "assets": {
-        "windows": "^chimaera-.*-setup\\.exe$",
+        "windows": "^Chimaera-Setup\\.exe$",
         "linux": "^chimaera-.*\\.AppImage$"
       },
       "featured": true,
