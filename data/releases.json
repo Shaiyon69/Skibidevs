@@ -466,130 +466,22 @@
         ]
       }
     ],
-    "Shaiyon69/teyvault:": [
+    "Shaiyon69/Skibidevs:teyvault-": [
       {
-        "tag": "v1.5.0",
-        "date": "2026-10-08T09:17:40Z",
-        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.4.0...v1.5.0",
-        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.5.0",
+        "tag": "v1.6.0",
+        "date": "2026-11-10T03:38:55Z",
+        "notes": "Changes: https://github.com/Shaiyon69/teyvault/commits/v1.6.0",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/teyvault-v1.6.0",
         "assets": [
           {
             "name": "Teyvault-Setup.exe",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.5.0/Teyvault-Setup.exe",
-            "size": 68268781
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/teyvault-v1.6.0/Teyvault-Setup.exe",
+            "size": 68618600
           },
           {
             "name": "Teyvault.apk",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.5.0/Teyvault.apk",
-            "size": 171504566
-          }
-        ]
-      },
-      {
-        "tag": "v1.4.0",
-        "date": "2026-10-04T02:40:28Z",
-        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.3.1...v1.4.0",
-        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.4.0",
-        "assets": [
-          {
-            "name": "Teyvault-Setup.exe",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.4.0/Teyvault-Setup.exe",
-            "size": 68195899
-          },
-          {
-            "name": "Teyvault.apk",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.4.0/Teyvault.apk",
-            "size": 171441470
-          }
-        ]
-      },
-      {
-        "tag": "v1.3.1",
-        "date": "2026-10-04T02:06:04Z",
-        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.3.0...v1.3.1",
-        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.3.1",
-        "assets": [
-          {
-            "name": "Teyvault-Setup.exe",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.3.1/Teyvault-Setup.exe",
-            "size": 68188092
-          },
-          {
-            "name": "Teyvault.apk",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.3.1/Teyvault.apk",
-            "size": 171439266
-          }
-        ]
-      },
-      {
-        "tag": "v1.3.0",
-        "date": "2026-10-03T19:20:41Z",
-        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.2.0...v1.3.0\n\n**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.2.0...v1.3.0",
-        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.3.0",
-        "assets": [
-          {
-            "name": "Teyvault-Setup.exe",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.3.0/Teyvault-Setup.exe",
-            "size": 68190756
-          },
-          {
-            "name": "Teyvault.apk",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.3.0/Teyvault.apk",
-            "size": 171439058
-          }
-        ]
-      },
-      {
-        "tag": "v1.2.0",
-        "date": "2026-10-03T15:10:30Z",
-        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.1.0...v1.2.0",
-        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.2.0",
-        "assets": [
-          {
-            "name": "Teyvault-Setup.exe",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.2.0/Teyvault-Setup.exe",
-            "size": 68183513
-          },
-          {
-            "name": "Teyvault.apk",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.2.0/Teyvault.apk",
-            "size": 169257214
-          }
-        ]
-      },
-      {
-        "tag": "v1.1.0",
-        "date": "2026-10-03T13:35:34Z",
-        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/compare/v1.0.0...v1.1.0",
-        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.1.0",
-        "assets": [
-          {
-            "name": "Teyvault-Setup.exe",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.1.0/Teyvault-Setup.exe",
-            "size": 67691347
-          },
-          {
-            "name": "Teyvault.apk",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.1.0/Teyvault.apk",
-            "size": 164812857
-          }
-        ]
-      },
-      {
-        "tag": "v1.0.0",
-        "date": "2026-10-03T13:11:28Z",
-        "notes": "**Full Changelog**: https://github.com/Shaiyon69/teyvault/commits/v1.0.0",
-        "url": "https://github.com/Shaiyon69/teyvault/releases/tag/v1.0.0",
-        "assets": [
-          {
-            "name": "Teyvault-Setup.exe",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.0.0/Teyvault-Setup.exe",
-            "size": 67682952
-          },
-          {
-            "name": "Teyvault.apk",
-            "url": "https://github.com/Shaiyon69/teyvault/releases/download/v1.0.0/Teyvault.apk",
-            "size": 164803289
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/teyvault-v1.6.0/Teyvault.apk",
+            "size": 171602494
           }
         ]
       }
