@@ -58,6 +58,54 @@
     ],
     "Shaiyon69/Skibidevs:messapp-": [
       {
+        "tag": "v1.6.1",
+        "date": "2026-11-10T14:23:02Z",
+        "notes": "Messapp v1.6.1",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/messapp-v1.6.1",
+        "assets": [
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.1/latest.json",
+            "size": 1261
+          },
+          {
+            "name": "MessApp-Android-v1.6.1.apk",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.1/MessApp-Android-v1.6.1.apk",
+            "size": 3165558
+          },
+          {
+            "name": "MessApp-Linux-v1.6.1.AppImage",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.1/MessApp-Linux-v1.6.1.AppImage",
+            "size": 83466744
+          },
+          {
+            "name": "MessApp-Linux-v1.6.1.deb",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.1/MessApp-Linux-v1.6.1.deb",
+            "size": 5248138
+          },
+          {
+            "name": "MessApp-Linux-v1.6.1.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.1/MessApp-Linux-v1.6.1.sig",
+            "size": 420
+          },
+          {
+            "name": "Messapp-Setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.1/Messapp-Setup.exe",
+            "size": 4730880
+          },
+          {
+            "name": "MessApp-Windows-v1.6.1.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.1/MessApp-Windows-v1.6.1.exe",
+            "size": 4126228
+          },
+          {
+            "name": "MessApp-Windows-v1.6.1.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.1/MessApp-Windows-v1.6.1.sig",
+            "size": 416
+          }
+        ]
+      },
+      {
         "tag": "v1.6.0",
         "date": "2026-11-10T11:16:45Z",
         "notes": "Messapp v1.6.0",
