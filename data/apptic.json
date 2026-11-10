@@ -139,10 +139,11 @@
       "tagline": "A Genshin Impact companion.",
       "description": "Daily check-in, a wish tracker with pity and 50/50 stats, builds and a searchable wiki.",
       "icon": "/Skibidevs/assets/img/apps/teyvault.png",
-      "repo": "Shaiyon69/teyvault",
+      "repo": "Shaiyon69/Skibidevs",
+      "tagPrefix": "teyvault-",
       "assets": {
-        "windows": "Setup\\.exe$",
-        "android": "\\.apk$"
+        "windows": "^Teyvault-Setup\\.exe$",
+        "android": "^Teyvault\\.apk$"
       },
       "screenshots": [
         {
