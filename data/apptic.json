@@ -95,7 +95,8 @@
       "repo": "Shaiyon69/Skibidevs",
       "tagPrefix": "chimaera-",
       "assets": {
-        "windows": "^chimaera-.*-setup\\.exe$"
+        "windows": "^chimaera-.*-setup\\.exe$",
+        "linux": "^chimaera-.*\\.AppImage$"
       },
       "featured": true,
       "screenshots": [
