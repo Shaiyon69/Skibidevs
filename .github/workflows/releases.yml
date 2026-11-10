@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # start Deploy Pages after a push
 
 concurrency: refresh-releases
 
@@ -48,3 +49,7 @@ jobs:
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore: refresh releases"
           git push
+          # A GITHUB_TOKEN push does not trigger the push event, so start the deploy here.
+          gh workflow run pages.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
