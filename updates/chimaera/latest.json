@@ -1,14 +1,14 @@
 {
-  "version": "2.1.1",
-  "pub_date": "2026-11-10T15:03:08.448Z",
+  "version": "2.1.2",
+  "pub_date": "2026-11-12T05:42:03.041Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakFQRkRrTlovejZDMmNwcXhlZ3lZVmNnTnA5d1MxWTZaV04yTmd4bjh1MWZ0dUNnYXhWZExnNElLMWVOWkJHbU51Z2FTblVGVjUyS3JoK3NkbWI0NUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzIyNTI5CWZpbGU6Q2hpbWFlcmFfMi4xLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMS4xClZTdXhsSEtLMjVON2pjU1hHdWFPSUo4bFN0TU5IUTgrcmRnbE01WElOTVpUelhqL3RCYVRQSUF0TlBJdytsYSt1RC9GWnBtMDNId0J5YVJxNjVpZUR3PT0K",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.1/chimaera-2.1.1-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakpYS2JiTEl3ckplbTJ5UjVkcUdkbzdwTzJtZE5NVUdpUVVxS0hIRE1TTGp0NExJUjYrdnZaNHMwblYvdDlOUjFERlovUU5aY3FoaitYTjZTelhCM3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYxODk4CWZpbGU6Q2hpbWFlcmFfMi4xLjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMS4yClVVR0lPczNJVDFIQTVIN1VmTUUrazdYdWo1ZVFlaVNMalFBQU1OQXJGUGFnaUxoT01UMjUxcC9XQWFYUS9CSzFrUERiTllZN2cyK05LT2Z3Qmc1dEFnPT0K",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.2/chimaera-2.1.2-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakliWENEN0hOZlk4UWNKZnozUUI0QVVQbGJJQW8wOG1KUDgyZzQrVGdOeFdsb1kvMW10WUZwM2VLUE1DTjNDNXlvWk9OS0pydnIxME5GTmNuRE9pN1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzE5OTQ0CWZpbGU6Q2hpbWFlcmFfMi4xLjFfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjoyLjEuMQpMcXhVTTZyZEM0S1ZzaFViYnJQSUNiZmpHejJueEh2YjlHdWJlanRUeWwzbGEvdlJWeG5RUTlNQnJwQTlXZkgzNmtYK3Y3dnlQUW0zM2FNb3VMemVEUT09Cg==",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.1/chimaera-2.1.1-amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZak9KNDltR0s0NENNRFBOT3ZHOG03Z0NUY2piZHRYNkViOWhzU3lMWmIwWjlnUGZhb2hQSmd6eDRzOHRQbE9iMnpKMjdHTDArVUZLNFZwSWpOSGY4QkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYxMTU0CWZpbGU6Q2hpbWFlcmFfMi4xLjJfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjoyLjEuMgpEd0ovRXRBRFhoY0Q3bUFOMnZ6RzAvRGVjYVNUZk5idkpiRmZMMGZJUVpHTkpQUGhHcGMvcVphUUdRZUlMbFQxZndENjhzTy9ncTM1aEVrN2JWQVFCUT09Cg==",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.2/chimaera-2.1.2-amd64.AppImage"
     }
   }
 }
