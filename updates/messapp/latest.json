@@ -1,14 +1,14 @@
 {
-  "version": "1.6.2",
-  "pub_date": "2026-11-10T22:25:45.179Z",
+  "version": "1.7.0",
+  "pub_date": "2026-11-12T05:25:37.478Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakVieVA0bEpRcnErYTlNY0NCT1F0WFEwVmd5TnhyTE5hQUhwb25KTDg1aE1qS25HL1FhYjZiN1ZUT0o1eHNZNGY4d1Q2akpFM2srTzFpbWtxQVNXVGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzQ5NDI5CWZpbGU6bWVzc2FwcF8xLjYuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MS42LjIKQUVSS1hYU29keVlXTFlwZjR4QUJCSDJVRnpqL1R0QUQ2NEowRFhiczNWdjlnUWc4ZGJDYTBYVjlJMkFkUjFQMzY3ZURxbERsZjRCN0QrcDh0WmppQnc9PQo=",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.2/MessApp-Windows-v1.6.2.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakdhM2hCdEFMRlh0MEo2RGVkZWJxKzBNVjVOcmlwa2c3ZlFZTHdHS1lZR0cxV29QWTJ5aU1XekRGZEtKN3NvZVhmd3lBVkEwb2NzZXFzaTdrbk1VOEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYwODA3CWZpbGU6bWVzc2FwcF8xLjcuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MS43LjAKMjFSWUxXK0xTK3ZIRHlnYnN0MHBwMEZrSUpLY3E5L0x1ZFFDdTFUd21wR0RORUROSmU3UjdnM1BJWklzbFp4UzdESm9NZzNWSU8yR0ErUllYSjFMQVE9PQo=",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.7.0/MessApp-Windows-v1.7.0.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakgyZjBSV2R4L1JkdWkwNDh2V09ZcDUvZHcvUFh4N3hCeUxvSDhROXBmSEVLSzFucldmdUUwOU5wU1RLR3hubzlyWGZ3Z0dxT3JRY2sweXJyTnBKbFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzQ5NDcxCWZpbGU6bWVzc2FwcF8xLjYuMl9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjEuNi4yCkM3Smg0L096RElKcy8yUnR2Qy8rNWxybG1lbmVnTHRGSityMEFNby9kcTVxcHQrN1hQYUdCVGE5YTN1RnZqbnFEQVNGeVRqaUFZVnVEVkY0VVBmeENnPT0K",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.6.2/MessApp-Linux-v1.6.2.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZak5xa0hZSGk1NTBvdW9peHBoM0pPU2QxZ2F3VzNVamJlU29ZU1l6enoyMUU2MWtCTmVrUXRhN1hyUjJOdnI0c3V6UnVVMnJpVWlBajFWc1R0VWlmSHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYwNzg1CWZpbGU6bWVzc2FwcF8xLjcuMF9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjEuNy4wCmFSTEV2K3h5U0o3ZWwwOU50REZJWS9SV2QzdDIydDd1T0xwT2NvVytkSTNDbWZzSVpnYk9hSFFoKzBtamJ3d0tlSE0wenZidkJ6UVZZYU8yYjJXU0FRPT0K",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/messapp-v1.7.0/MessApp-Linux-v1.7.0.AppImage"
     }
   }
 }
