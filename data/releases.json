@@ -485,6 +485,44 @@
     ],
     "Shaiyon69/Skibidevs:chimaera-": [
       {
+        "tag": "v2.3.2",
+        "date": "2026-11-22T09:24:53Z",
+        "notes": "## Fixed\n\n- Only fail the AppImage repack on missing libraries\n- Run the Linux AppImage on the system WebKitGTK\n",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.3.2",
+        "assets": [
+          {
+            "name": "chimaera-2.3.2-amd64.AppImage",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.2/chimaera-2.3.2-amd64.AppImage",
+            "size": 54987256
+          },
+          {
+            "name": "chimaera-2.3.2-amd64.AppImage.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.2/chimaera-2.3.2-amd64.AppImage.sig",
+            "size": 420
+          },
+          {
+            "name": "chimaera-2.3.2-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.2/chimaera-2.3.2-setup.exe",
+            "size": 41844583
+          },
+          {
+            "name": "chimaera-2.3.2-setup.exe.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.2/chimaera-2.3.2-setup.exe.sig",
+            "size": 436
+          },
+          {
+            "name": "Chimaera-Setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.2/Chimaera-Setup.exe",
+            "size": 4748288
+          },
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.2/latest.json",
+            "size": 1410
+          }
+        ]
+      },
+      {
         "tag": "v2.3.1",
         "date": "2026-11-22T05:25:58Z",
         "notes": "## Fixed\n\n- Retry dropped connections when checking a link and hide the Datanodes window while it is checked\n",
@@ -772,29 +810,6 @@
           {
             "name": "latest.json",
             "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.2/latest.json",
-            "size": 691
-          }
-        ]
-      },
-      {
-        "tag": "v2.0.1",
-        "date": "2026-11-01T09:25:30Z",
-        "notes": "Chimaera v2.0.1: faster startup. Languages other than English, the trailer player and an unused error-reporting module now load only when needed, cutting startup JavaScript from 5.4 MB to 2.35 MB.",
-        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.0.1",
-        "assets": [
-          {
-            "name": "chimaera-2.0.1-setup.exe",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.1/chimaera-2.0.1-setup.exe",
-            "size": 37570010
-          },
-          {
-            "name": "chimaera-2.0.1-setup.exe.sig",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.1/chimaera-2.0.1-setup.exe.sig",
-            "size": 436
-          },
-          {
-            "name": "latest.json",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.1/latest.json",
             "size": 691
           }
         ]

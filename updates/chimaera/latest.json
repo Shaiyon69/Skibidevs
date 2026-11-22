@@ -1,15 +1,15 @@
 {
-  "version": "2.3.1",
-  "notes": "## Fixed\n\n- Retry dropped connections when checking a link and hide the Datanodes window while it is checked",
-  "pub_date": "2026-11-22T05:25:55.064Z",
+  "version": "2.3.2",
+  "notes": "## Fixed\n\n- Only fail the AppImage repack on missing libraries\n- Run the Linux AppImage on the system WebKitGTK",
+  "pub_date": "2026-11-22T09:24:49.333Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakF0MHVDQXZjOTdiOWwrNlFDbE9WckhiUFAvNUJjU2pCa1Yxa1A2RHUreUs2Y0EyNkQxUmgzQW43dU1MK0JhN3gvdHc4ekZaWFlyaFFQaTQ0dWVNNXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzI1MDczCWZpbGU6Q2hpbWFlcmFfMi4zLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMy4xCjd2T3JKNEYybVRYS2JFRHdZQjFvNy9mSHdVTGVtSmEreENBdUVXMjRlYks2ZXhQWDNwdDYxam1ieGI4b3VmQVNjSU43aEpCcjVNNDV4blBtQXcxakJBPT0K",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/chimaera-2.3.1-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakdXdWhvS1QvTWNpbmg3WVMrelRhUHRPUlFGdmZNb2tVUlVGYnBmM1IweHBTZFJMb21jc1d0RG9qV2pLYzJIbEM2LzdENUJPeUx4dkpOdUxZRUU1aEFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzM5MzY4CWZpbGU6Q2hpbWFlcmFfMi4zLjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMy4yCmQyNGl3Z2hLa29lcUs3YVJuMWZMTjBkN0JDa0lIeUtuRCsrL3RocjQ4UW9TMnFVeVUwS1FNSmc0cTVqOW52V3E2YXdqelI5eGhzQW1SL0R6am5VTkNBPT0K",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.2/chimaera-2.3.2-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZak1RTW9XeHJMNTNlc0NaOEFIcTdQZ3haSFRSN0Jyb3ZIOWJETEpLTDlDSWpMc1JxUW02ZlRkQk1JSUtFRWJhN2dFZVQzS0NRc3E5cGFERnRPSFdkZ3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzI1MTIyCWZpbGU6Q2hpbWFlcmFfMi4zLjFfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjoyLjMuMQprVWVtZVBJbnMrMWxSMklYQWZwMVZFZ0hIa3JTWjRpQlVibTVBSHVPaHlYa0xnd2d1MkZ2MldRVzBSai9weXBOdlJyNEcxbHlJSlREa2pQdlNEMGJEUT09Cg==",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/chimaera-2.3.1-amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakp4VEZITVpHMThWa1VEUjBPTS9OR2M1dXFHakxYVXJ3cStaTEtnZ0tIQWpNbzRaVGozZG83SUdnSzFoU1I1VkxIbGRKQmFTeVZMVFdYUE12VWIwMFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzM5MTg2CWZpbGU6Q2hpbWFlcmFfMi4zLjJfYW1kNjQuQXBwSW1hZ2UKRnh4dk94d2t4VFJDMjdXelZUK0lianNOTkt6VHVjb2V1TzJtcEYxaUVaKzVSZFNTK0owaStqaFdzZXJ0UDREYTExV1UxSTdKNEpmakNKREdBSDZzQlE9PQo=",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.2/chimaera-2.3.2-amd64.AppImage"
     }
   }
 }
