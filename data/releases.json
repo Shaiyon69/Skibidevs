@@ -485,6 +485,44 @@
     ],
     "Shaiyon69/Skibidevs:chimaera-": [
       {
+        "tag": "v2.4.0",
+        "date": "2026-11-22T10:18:37Z",
+        "notes": "## New\n\n- Redesign hero meta, genres and playtime with banner accent\n- Find emulator saves inside Wine/Proton prefixes on Linux\n\n## Fixed\n\n- Only fail the AppImage repack on missing libraries\n",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.4.0",
+        "assets": [
+          {
+            "name": "chimaera-2.4.0-amd64.AppImage",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.0/chimaera-2.4.0-amd64.AppImage",
+            "size": 54991352
+          },
+          {
+            "name": "chimaera-2.4.0-amd64.AppImage.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.0/chimaera-2.4.0-amd64.AppImage.sig",
+            "size": 420
+          },
+          {
+            "name": "chimaera-2.4.0-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.0/chimaera-2.4.0-setup.exe",
+            "size": 41852770
+          },
+          {
+            "name": "chimaera-2.4.0-setup.exe.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.0/chimaera-2.4.0-setup.exe.sig",
+            "size": 436
+          },
+          {
+            "name": "Chimaera-Setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.0/Chimaera-Setup.exe",
+            "size": 4748288
+          },
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.0/latest.json",
+            "size": 1494
+          }
+        ]
+      },
+      {
         "tag": "v2.3.2",
         "date": "2026-11-22T09:24:53Z",
         "notes": "## Fixed\n\n- Only fail the AppImage repack on missing libraries\n- Run the Linux AppImage on the system WebKitGTK\n",
@@ -787,29 +825,6 @@
           {
             "name": "latest.json",
             "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.3/latest.json",
-            "size": 691
-          }
-        ]
-      },
-      {
-        "tag": "v2.0.2",
-        "date": "2026-11-01T14:16:01Z",
-        "notes": "Chimaera v2.0.2: profile sorting by playtime and recently played works again, a Steam only filter on the profile Achievements tab, a smaller notification dot, and lower WebView2 memory use while the window is minimized or hidden or a game is running.",
-        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.0.2",
-        "assets": [
-          {
-            "name": "chimaera-2.0.2-setup.exe",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.2/chimaera-2.0.2-setup.exe",
-            "size": 37581610
-          },
-          {
-            "name": "chimaera-2.0.2-setup.exe.sig",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.2/chimaera-2.0.2-setup.exe.sig",
-            "size": 436
-          },
-          {
-            "name": "latest.json",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.2/latest.json",
             "size": 691
           }
         ]
