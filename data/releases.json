@@ -437,6 +437,44 @@
     ],
     "Shaiyon69/Skibidevs:chimaera-": [
       {
+        "tag": "v2.3.1",
+        "date": "2026-11-22T05:25:58Z",
+        "notes": "## Fixed\n\n- Retry dropped connections when checking a link and hide the Datanodes window while it is checked\n",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.3.1",
+        "assets": [
+          {
+            "name": "chimaera-2.3.1-amd64.AppImage",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/chimaera-2.3.1-amd64.AppImage",
+            "size": 188975608
+          },
+          {
+            "name": "chimaera-2.3.1-amd64.AppImage.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/chimaera-2.3.1-amd64.AppImage.sig",
+            "size": 440
+          },
+          {
+            "name": "chimaera-2.3.1-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/chimaera-2.3.1-setup.exe",
+            "size": 41854380
+          },
+          {
+            "name": "chimaera-2.3.1-setup.exe.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/chimaera-2.3.1-setup.exe.sig",
+            "size": 436
+          },
+          {
+            "name": "Chimaera-Setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/Chimaera-Setup.exe",
+            "size": 4748288
+          },
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/latest.json",
+            "size": 1426
+          }
+        ]
+      },
+      {
         "tag": "v2.3.0",
         "date": "2026-11-22T04:11:16Z",
         "notes": "## New\n\n- List friends who are playing first and remember the order\n- Add a mini grid view\n- Clear completed downloads from the list\n- Link an Epic Games account and sync owned games, playtime and achievements\n- What's new panel with release notes written from the commits since the last version\n- Show tier badges on every platform, in the game hero and library\n\n## Fixed\n\n- Batch Datanodes checks in one window and rank Datanodes last\n- Count GOG and Epic playtime for the review gate and Big Picture profile\n- Keep a new sync's cancel flag when the previous sync finishes\n- Retry failed lookups after 5 minutes and skip requests for cards that left the screen\n\n## Faster\n\n- Keep ProtonDB answers on disk for a week\n- Open game pages from cache and prefetch on hover\n",
@@ -709,29 +747,6 @@
           {
             "name": "latest.json",
             "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.1/latest.json",
-            "size": 691
-          }
-        ]
-      },
-      {
-        "tag": "v2.0.0",
-        "date": "2026-11-01T09:47:52Z",
-        "notes": "Chimaera v2.0.0",
-        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.0.0",
-        "assets": [
-          {
-            "name": "chimaera-2.0.0-setup.exe",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.0/chimaera-2.0.0-setup.exe",
-            "size": 37303684
-          },
-          {
-            "name": "chimaera-2.0.0-setup.exe.sig",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.0/chimaera-2.0.0-setup.exe.sig",
-            "size": 436
-          },
-          {
-            "name": "latest.json",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.0/latest.json",
             "size": 691
           }
         ]

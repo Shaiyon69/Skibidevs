@@ -1,15 +1,15 @@
 {
-  "version": "2.3.0",
-  "notes": "## New\n\n- List friends who are playing first and remember the order\n- Add a mini grid view\n- Clear completed downloads from the list\n- Link an Epic Games account and sync owned games, playtime and achievements\n- What's new panel with release notes written from the commits since the last version\n- Show tier badges on every platform, in the game hero and library\n\n## Fixed\n\n- Batch Datanodes checks in one window and rank Datanodes last\n- Count GOG and Epic playtime for the review gate and Big Picture profile\n- Keep a new sync's cancel flag when the previous sync finishes\n- Retry failed lookups after 5 minutes and skip requests for cards that left the screen\n\n## Faster\n\n- Keep ProtonDB answers on disk for a week\n- Open game pages from cache and prefetch on hover",
-  "pub_date": "2026-11-22T04:11:06.925Z",
+  "version": "2.3.1",
+  "notes": "## Fixed\n\n- Retry dropped connections when checking a link and hide the Datanodes window while it is checked",
+  "pub_date": "2026-11-22T05:25:55.064Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakY3bmFwMmZoNEpidE9mRDNDczJyNUhIWEp6Y28vandSRE5MQVIyUlBhd2plVVhlMjA2M3NXcXBCbkxGNndDditCNWxjWndMb3JkY1UxQjdaYUxpSlE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE5ODc4CWZpbGU6Q2hpbWFlcmFfMi4zLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMy4wCkVVK05GMGkzbVNSUjV2MmovNDBWaEgxdDRwN1NPWEdmMDZ3c3pNQjJTa1BONUtVODY5UHV0WTBkUlBDRjhuS3daUzNiOERTakd3MEI2bGtwQXcweEJ3PT0K",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.0/chimaera-2.3.0-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakF0MHVDQXZjOTdiOWwrNlFDbE9WckhiUFAvNUJjU2pCa1Yxa1A2RHUreUs2Y0EyNkQxUmgzQW43dU1MK0JhN3gvdHc4ekZaWFlyaFFQaTQ0dWVNNXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzI1MDczCWZpbGU6Q2hpbWFlcmFfMi4zLjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMy4xCjd2T3JKNEYybVRYS2JFRHdZQjFvNy9mSHdVTGVtSmEreENBdUVXMjRlYks2ZXhQWDNwdDYxam1ieGI4b3VmQVNjSU43aEpCcjVNNDV4blBtQXcxakJBPT0K",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/chimaera-2.3.1-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakp3QVRwdWpIeFJCVXA0YS9KY05yRkwvaUV5OWZMdFV6T3A0TDVOZE1HMVNWMWFqRDczRmlsUjhEZEFZeTBlOStLNzVPSlJZandNVytJUU9NOGtabWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzE5Njg1CWZpbGU6Q2hpbWFlcmFfMi4zLjBfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjoyLjMuMApuUDRWcE9mdjVWaDNBSzJSM2hRdDNCOC9maUJoN1JTOGhQMEdheDJ3TDYzeUVOKzVhQm93UzhrL1NtMFR2d0EvNTI2SkhrbXVVaG1TcytUZ1VCQ01DQT09Cg==",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.0/chimaera-2.3.0-amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZak1RTW9XeHJMNTNlc0NaOEFIcTdQZ3haSFRSN0Jyb3ZIOWJETEpLTDlDSWpMc1JxUW02ZlRkQk1JSUtFRWJhN2dFZVQzS0NRc3E5cGFERnRPSFdkZ3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzI1MTIyCWZpbGU6Q2hpbWFlcmFfMi4zLjFfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjoyLjMuMQprVWVtZVBJbnMrMWxSMklYQWZwMVZFZ0hIa3JTWjRpQlVibTVBSHVPaHlYa0xnd2d1MkZ2MldRVzBSai9weXBOdlJyNEcxbHlJSlREa2pQdlNEMGJEUT09Cg==",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.3.1/chimaera-2.3.1-amd64.AppImage"
     }
   }
 }
