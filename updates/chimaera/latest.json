@@ -1,15 +1,15 @@
 {
-  "version": "2.4.0",
-  "notes": "## New\n\n- Redesign hero meta, genres and playtime with banner accent\n- Find emulator saves inside Wine/Proton prefixes on Linux\n\n## Fixed\n\n- Only fail the AppImage repack on missing libraries",
-  "pub_date": "2026-11-22T10:18:33.984Z",
+  "version": "2.4.1",
+  "notes": "## Fixed\n\n- Pick the banner's vivid hue for the accent and tint playtime icons",
+  "pub_date": "2026-11-22T10:30:55.940Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakpoa1NUd0pWOVJWejJ1N1dxY1dIMzZVb29semd6K3lXTUg4Z1lMV2UrNjA0MHpxcCs5ekJjYS9sNWh5YWdsM3RiZmxjUWRPWDRNOG9GaUE0bjg1Z3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQyNTg1CWZpbGU6Q2hpbWFlcmFfMi40LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuNC4wCkMvK0tmbHJkTURtSnNIZTlqeFNQeUFzTHJUblIzVlBFaDdnSyttdm03VmhrN0hjSjNWRmZRVTJ5NGd2QnMrYXpBTGxvWU1HOHJjOG9xK21nazU4TkJRPT0K",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.0/chimaera-2.4.0-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZalAxZWthV1pBcDR0M1NUd3M4bHBtZ0FiQzhOMlVlMUJpRmhrN3NvWFJyNk5uVXhVOThRT3ZSOEE4NmdEc1ZkRTNqOGtDaTZiWk8rYzFySC93ZE1xTGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQzMzY4CWZpbGU6Q2hpbWFlcmFfMi40LjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuNC4xCnJQaXBJWi9mQWNyK09KL21yOFppTnY5MFQ0K2t1dkZCZDB2UlU3cWRkRDhVSHRGV0x3c1dUdkxOZWwzYjVVVVg0Nm9sSFNneEovcmdUNlBjd3NJeER3PT0K",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.1/chimaera-2.4.1-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZak9LZDZlbnVLR0RtSGFsb1lubFZPVGU4Ui9SYzQzak5oenFoaEZsbVZOTEF6S09RR2hhREZMbWZmU1EvMm82VDJKc1ovUjVybjdDQm9QZjIzc1d3eWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQyMzczCWZpbGU6Q2hpbWFlcmFfMi40LjBfYW1kNjQuQXBwSW1hZ2UKZWQ1a1Y4Vm5CWHUzZTMzZTEvUGQ1REpxUEM3VEUwYkFXbVdpTTNLV3ZVeGFGVmlHeWljcUhic1hZNjMzdzdpc05WOUY1dmxMNmpmazh0Tzk4bktpQXc9PQo=",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.0/chimaera-2.4.0-amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakZsdlNLdzBkeWd0MElsQmtmY1JVWGlwM2M5OHBCbXFaVTJVUXN3ZlNlMHpWbFdsQ3FJWnZkU3hGdzgyRjFFYkc2VUdhZDJuT3RPSy9LN2JDeEd6Y3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQzMzYzCWZpbGU6Q2hpbWFlcmFfMi40LjFfYW1kNjQuQXBwSW1hZ2UKdENhZi80dHBvbkR4VGhseVhycWlXRTE1dW1TRDcrNHhCS0lSWXQwbmx1MVZNalpQbWJWTXV4L3BUZzRsOXB6bnVoOEV2NVExTllCUDJxajhIVFFNQkE9PQo=",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.4.1/chimaera-2.4.1-amd64.AppImage"
     }
   }
 }
