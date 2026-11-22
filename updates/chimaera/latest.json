@@ -1,15 +1,15 @@
 {
-  "version": "2.5.0",
-  "notes": "## New\n\n- Tie custom games to a Steam appid for their achievements\n\n## Fixed\n\n- Drop the clipped focus outline on the search input\n\n## Faster\n\n- Reuse one Hydra API client and shorten the suggestion debounce",
-  "pub_date": "2026-11-22T12:03:24.377Z",
+  "version": "2.5.1",
+  "notes": "## Fixed\n\n- Hide the SteamGridDB picker when Hydra refuses the request",
+  "pub_date": "2026-11-22T12:35:51.916Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakdac3dpTDZQUHlkWExBVm1GMlFIN0tIanFXWTlFckZPU0VVZ2dmd0FKR2MvTzVnNVZ2c2hycDJXMTV4cjUrR2tSQ0xFQ3RMZHh0KzRJalp4NktjL3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQ4ODY1CWZpbGU6Q2hpbWFlcmFfMi41LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuNS4wCm5CRnFQdldMeXk2ejc2R0hQZy9DTXV4WXJpbnNUcG1iM2JNQm5zR0krRGRMcVVGOGdXUGM3TDdPNE5QelRYZWNiS2V5cjZweW1QNTdyUUpxSndSN0JnPT0K",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.0/chimaera-2.5.0-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZak1GYkxiajRtdVhYSW9hWjBad004VkFFSDhFc3hXR0JWYVlJSTE0VWxvZ29UcEVVdkJvTXVZUTFYYU5NZW1FZll3SzNvSkovSnk1US8zR05EWEFrekFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzUwODI5CWZpbGU6Q2hpbWFlcmFfMi41LjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuNS4xCkNqRXV6M3RZeWhONVdJL1FiWEFueVZ0TmQ5TUJCbHJ5OHAzSkZZcHpCWlVtUmxiNStWOWc2RExiNzV6SVNBTEhFTFcwU3lHS2p3SWNvbjdnbnRLcUFBPT0K",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.1/chimaera-2.5.1-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakptdGllOWtrNkVYZG1XZmJNVEhkbEVhdXpuTVBVdFQ0ekN6YzBETGZ6TSs4akJmZU1JTEJ2MGZGSXV6U3Z3Y2VJZmlqOWpkNHMyUWlUNFZSUWUvblFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzQ4NTEzCWZpbGU6Q2hpbWFlcmFfMi41LjBfYW1kNjQuQXBwSW1hZ2UKZVRRNExHMzliemxmRmgyMzZjaWVrRkNDdUliY2pDZGxSRitoNkNVKzI2VWJHd2VZUzJBL0R4cmU1VW1jT3htdHE0dENqbkJLa1h3RzRUNGZFVGNQQ3c9PQo=",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.0/chimaera-2.5.0-amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakdUU1o5NjllOU1neXZSMDFtZWxxZ1dJZzQ0VlM1V1RyYjFtZllHZms2eTFiSkhlOU5oU0FLcTVEci9ycFJhTEZlVk9aTXAyc2psMjg2c2VFSVhxR1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzUwNjE2CWZpbGU6Q2hpbWFlcmFfMi41LjFfYW1kNjQuQXBwSW1hZ2UKVEtmTm5mcUtLb1o0MGZ2eG9hUE5KVVpYbC85VVZVdlpudXEwSE9jdDZGOTk5OFhZejA1dVJVbnJudWl1ZERmZUJHQnVKS0c5QlZkaWdLY3krTmZ3QVE9PQo=",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.1/chimaera-2.5.1-amd64.AppImage"
     }
   }
 }
