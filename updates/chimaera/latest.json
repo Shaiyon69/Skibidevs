@@ -1,14 +1,15 @@
 {
-  "version": "2.1.2",
-  "pub_date": "2026-11-12T05:42:03.041Z",
+  "version": "2.2.0",
+  "notes": "## New\n\n- What's new panel with release notes written from the commits since the last version\n- Show tier badges on every platform, in the game hero and library\n- Download multi-part mirrors, Datanodes, FuckingFast and FileKeeper\n- List multi-part hoster mirrors as one download option\n- Flatpak Proton tools and prefix setup for save backups\n- Managed umu-run when none is installed, like upstream Hydra\n- Find Proton in every Steam library like upstream Hydra\n- Prepare a missing prefix before a save restore\n- Run game installers through umu-run like upstream Hydra\n- One game prefix for winetricks and save backups\n- Wine fallback and stale prefix cleanup like upstream Hydra\n- Supervise umu-run launches like upstream Hydra\n- Parse umu-run output like upstream Hydra\n- Map installer G: drive to the downloads folder\n- Launch Windows games through umu-run and Proton\n- Noctalia preset that follows the Linux desktop theme\n\n## Fixed\n\n- Retry failed lookups after 5 minutes and skip requests for cards that left the screen\n- Steam shortcuts launch through Chimaera's run link\n- Game shortcuts point at the AppImage file\n- Detect Steam and Proton games correctly while playing\n- Review fixes for the umu-run port\n- Silence drop of a Copy result in installer exit hook\n- Run host tools without the AppImage environment\n- Stop status line bouncing as dots cycle\n- Honor global GameMode and MangoHud switches",
+  "pub_date": "2026-11-22T02:15:50.370Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakpYS2JiTEl3ckplbTJ5UjVkcUdkbzdwTzJtZE5NVUdpUVVxS0hIRE1TTGp0NExJUjYrdnZaNHMwblYvdDlOUjFERlovUU5aY3FoaitYTjZTelhCM3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYxODk4CWZpbGU6Q2hpbWFlcmFfMi4xLjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMS4yClVVR0lPczNJVDFIQTVIN1VmTUUrazdYdWo1ZVFlaVNMalFBQU1OQXJGUGFnaUxoT01UMjUxcC9XQWFYUS9CSzFrUERiTllZN2cyK05LT2Z3Qmc1dEFnPT0K",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.2/chimaera-2.1.2-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakdmREJ3Q0hIQTEyVmlBWmpCYmFFQTdaRjhqa1E0NGdQbXBBRDJFR3hiOUFTU2doUzZSeVlpNnErMklSS1lmekV6ZVpQN3VKYjVpYXJ1bS9NWUVSMXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzEzMDM1CWZpbGU6Q2hpbWFlcmFfMi4yLjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuMi4wCk14QzJUYmlML1NVQ1dHRG01ejdxM1FsQ3Ywc2FQVmU1d1ZjRkpDNEgxSnR2b2NZWURWdXo4S2d4Y2JQbzVtVXZhVXU0aXBpQi9qTnUwRlI4c3l4QUN3PT0K",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.2.0/chimaera-2.2.0-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZak9KNDltR0s0NENNRFBOT3ZHOG03Z0NUY2piZHRYNkViOWhzU3lMWmIwWjlnUGZhb2hQSmd6eDRzOHRQbE9iMnpKMjdHTDArVUZLNFZwSWpOSGY4QkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDYxMTU0CWZpbGU6Q2hpbWFlcmFfMi4xLjJfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjoyLjEuMgpEd0ovRXRBRFhoY0Q3bUFOMnZ6RzAvRGVjYVNUZk5idkpiRmZMMGZJUVpHTkpQUGhHcGMvcVphUUdRZUlMbFQxZndENjhzTy9ncTM1aEVrN2JWQVFCUT09Cg==",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.2/chimaera-2.1.2-amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakZUTnRYNXRsZXpOa2NpWVpjenhKcFpiWTJ2djVkOWhXTVZkZkxoTDF6WTF2djVEcWFwVHU5ZkZ4d0MwNll1MUoybWF6amZ4LzdWallSUTNQWDd0UXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzExMDg4CWZpbGU6Q2hpbWFlcmFfMi4yLjBfYW1kNjQuQXBwSW1hZ2UJdmVyc2lvbjoyLjIuMApsQytUR2sxdUM2UWhZdFFRakxwbnZkR1lDWmhkVU5yZnlYRG01ekpFbnhFeWJaUG9FTlBxNDFtYnhKemw2RDJackErM3NTUmpTRXFQT1NFV3QrT1NBQT09Cg==",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.2.0/chimaera-2.2.0-amd64.AppImage"
     }
   }
 }
