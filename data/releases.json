@@ -485,6 +485,44 @@
     ],
     "Shaiyon69/Skibidevs:chimaera-": [
       {
+        "tag": "v2.5.0",
+        "date": "2026-11-22T12:03:28Z",
+        "notes": "## New\n\n- Tie custom games to a Steam appid for their achievements\n\n## Fixed\n\n- Drop the clipped focus outline on the search input\n\n## Faster\n\n- Reuse one Hydra API client and shorten the suggestion debounce\n",
+        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.5.0",
+        "assets": [
+          {
+            "name": "chimaera-2.5.0-amd64.AppImage",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.0/chimaera-2.5.0-amd64.AppImage",
+            "size": 54987256
+          },
+          {
+            "name": "chimaera-2.5.0-amd64.AppImage.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.0/chimaera-2.5.0-amd64.AppImage.sig",
+            "size": 420
+          },
+          {
+            "name": "chimaera-2.5.0-setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.0/chimaera-2.5.0-setup.exe",
+            "size": 41854447
+          },
+          {
+            "name": "chimaera-2.5.0-setup.exe.sig",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.0/chimaera-2.5.0-setup.exe.sig",
+            "size": 436
+          },
+          {
+            "name": "Chimaera-Setup.exe",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.0/Chimaera-Setup.exe",
+            "size": 4748288
+          },
+          {
+            "name": "latest.json",
+            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.0/latest.json",
+            "size": 1513
+          }
+        ]
+      },
+      {
         "tag": "v2.4.1",
         "date": "2026-11-22T10:30:59Z",
         "notes": "## Fixed\n\n- Pick the banner's vivid hue for the accent and tint playtime icons\n",
@@ -818,29 +856,6 @@
             "name": "latest.json",
             "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.1.0/latest.json",
             "size": 1301
-          }
-        ]
-      },
-      {
-        "tag": "v2.0.4",
-        "date": "2026-11-03T14:36:06Z",
-        "notes": "Chimaera v2.0.4",
-        "url": "https://github.com/Shaiyon69/Skibidevs/releases/tag/chimaera-v2.0.4",
-        "assets": [
-          {
-            "name": "chimaera-2.0.4-setup.exe",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.4/chimaera-2.0.4-setup.exe",
-            "size": 41699923
-          },
-          {
-            "name": "chimaera-2.0.4-setup.exe.sig",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.4/chimaera-2.0.4-setup.exe.sig",
-            "size": 436
-          },
-          {
-            "name": "latest.json",
-            "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.0.4/latest.json",
-            "size": 691
           }
         ]
       }
