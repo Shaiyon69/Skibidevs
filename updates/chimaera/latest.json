@@ -1,15 +1,15 @@
 {
-  "version": "2.5.1",
-  "notes": "## Fixed\n\n- Hide the SteamGridDB picker when Hydra refuses the request",
-  "pub_date": "2026-11-22T12:35:51.916Z",
+  "version": "2.5.4",
+  "notes": "## New\n\n- Run Bloodborne and Horizon on Linux too",
+  "pub_date": "2026-11-26T00:08:28.033Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZak1GYkxiajRtdVhYSW9hWjBad004VkFFSDhFc3hXR0JWYVlJSTE0VWxvZ29UcEVVdkJvTXVZUTFYYU5NZW1FZll3SzNvSkovSnk1US8zR05EWEFrekFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzUwODI5CWZpbGU6Q2hpbWFlcmFfMi41LjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuNS4xCkNqRXV6M3RZeWhONVdJL1FiWEFueVZ0TmQ5TUJCbHJ5OHAzSkZZcHpCWlVtUmxiNStWOWc2RExiNzV6SVNBTEhFTFcwU3lHS2p3SWNvbjdnbnRLcUFBPT0K",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.1/chimaera-2.5.1-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakx0c3UxdWZ4OTNPK1VIQ2FpNkVCbTY4RjdkRnVsKy9PVit2cVJjczU5aHNZZ251YlNtOEJ2Z2FwY0NBclJHSzl3QlBJLzR6S25IVU9uOHhUTUdObXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjUxNjAzCWZpbGU6Q2hpbWFlcmFfMi41LjRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjIuNS40CjMwNCsya1B2L3lFS0xhNTY0a2hmWU5WbFhhWSs5UHhVRVZNZ25IdWFkdUJmSzliSVBQT2J2aXhFQ2pyYkVQUytPeEt4MExhTnhNU1FvMDlHRWlkbkNnPT0K",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.4/chimaera-2.5.4-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakdUU1o5NjllOU1neXZSMDFtZWxxZ1dJZzQ0VlM1V1RyYjFtZllHZms2eTFiSkhlOU5oU0FLcTVEci9ycFJhTEZlVk9aTXAyc2psMjg2c2VFSVhxR1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MzUwNjE2CWZpbGU6Q2hpbWFlcmFfMi41LjFfYW1kNjQuQXBwSW1hZ2UKVEtmTm5mcUtLb1o0MGZ2eG9hUE5KVVpYbC85VVZVdlpudXEwSE9jdDZGOTk5OFhZejA1dVJVbnJudWl1ZERmZUJHQnVKS0c5QlZkaWdLY3krTmZ3QVE9PQo=",
-      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.1/chimaera-2.5.1-amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTZ3dYTUppWGlZakFvdWR6L2RiVmlISEUrWW41akN5R1FDaUgyZjU3OFVlWkttcUZIVUNlbmtmR2xVQ1E4c0tuc1pOckZQWU1JUEhSTnQySnBwSWc1cEtCVW9oVkN3WHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjUxNjc4CWZpbGU6Q2hpbWFlcmFfMi41LjRfYW1kNjQuQXBwSW1hZ2UKc1NNRXFDSEJuZWdONEJYK0hsUUV3WE4wOXRHU214N0tNYlc3bmZmeEMwY3RCVXVZWUsvVHcrZ0szcmgrc2t1NEk2WFk5ckNmdGt1a2hwcTI2T3JLQVE9PQo=",
+      "url": "https://github.com/Shaiyon69/Skibidevs/releases/download/chimaera-v2.5.4/chimaera-2.5.4-amd64.AppImage"
     }
   }
 }
